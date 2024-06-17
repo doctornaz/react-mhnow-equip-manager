@@ -3,7 +3,7 @@
         "name": "Hunter's Unity",
         "description": "The more companions there are activating the same skill, the greater the damage inflicted.",
         "type": "offensive",
-        "limit": 1
+        "limit": 1 
     },
     {
         "name": "Artillery",
@@ -285,7 +285,7 @@
         "name": "Quick Work",
         "description": "Increases the speed of sheathing or transforming your weapon.",
         "type": "utility",
-        "limit": 3
+        "limit": 5
     },
     {
         "name": "Happy New Year (2024)",
@@ -303,7 +303,7 @@
         "name": "Concentration",
         "description": "Increases special gauge fill rate.",
         "type": "utility",
-        "limit": 5
+        "limit": 5  
     },
     {
         "name": "Paralysis Attack",
@@ -344,7 +344,8 @@
     {
         "name": "Windproof",
         "description": "Reduces/Negates the effects of wind pressure.",
-        "type": "utility"
+        "type": "utility",
+        "limit": 5
     },
     {
         "name": "Slugger",
