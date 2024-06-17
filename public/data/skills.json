@@ -3,7 +3,7 @@
         "name": "Hunter's Unity",
         "description": "The more companions there are activating the same skill, the greater the damage inflicted.",
         "type": "offensive",
-        "limit": 1
+        "limit": 1 
     },
     {
         "name": "Artillery",
@@ -20,7 +20,8 @@
     {
         "name": "Power Prolonger",
         "description": "Extends the duration of the powered-up state granted by dual blades, long swords, and charge blades.",
-        "type": "offensive"
+        "type": "offensive",
+        "limit": 5
     },
     {
         "name": "Status Sneak Attack",
