@@ -292,7 +292,8 @@
     {
         "name": "Slugger",
         "description": "Increases stun power.",
-        "type": "utility"
+        "type": "utility",
+        "limit": 5
     },
     {
         "name": "Lock On",
