@@ -1,16 +1,24 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
-import Sidebar from './components/Sidebar/Sidebar'; // Updated import path
+import Sidebar from './components/Sidebar/Sidebar';
+import SelectedSkills from './components/SelectedSkills/SelectedSkills'; // Import SelectedSkills component
+
 
 function App() {
     const [skills, setSkills] = useState([]);
     const [selectedSkills, setSelectedSkills] = useState([]);
+    const [armorData, setArmorData] = useState([]);
 
     useEffect(() => {
         fetch('/data/skills.json')
             .then(response => response.json())
             .then(data => setSkills(data.map(skill => ({ ...skill, selected: false }))))
             .catch(error => console.error('Error fetching skills:', error));
+            
+        fetch('/data/armor.json') // Load armor data
+            .then(response => response.json())
+            .then(data => setArmorData(data))
+            .catch(error => console.error('Error fetching armor data:', error));
     }, []);
 
     const handleSkillSelect = (skill) => {
@@ -24,18 +32,8 @@ function App() {
     return (
         <div className="App">
             <div className="content">
-                {/* <header className="App-header">
-                    <h1>Welcome to Skill Search</h1>
-                </header> */}
                 <Sidebar skills={skills} onSkillSelect={handleSkillSelect} />
-                {/* <div className="selected-skills-panel">
-                    <h3>Selected Skills:</h3>
-                    {selectedSkills.map((skill, index) => (
-                        <div key={index} className="skill-item">
-                            <strong>{skill.name}</strong>
-                        </div>
-                    ))}
-                </div> */}
+                <SelectedSkills selectedSkills={selectedSkills} armorData={armorData} />
             </div>
         </div>
     );
