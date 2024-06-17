@@ -1,0 +1,49 @@
+/* .set-builder-panel { */
+  /* width: calc(100% - 300px); */
+  /* width: 70%; */
+  /* max-width: 500px; */
+  /* border: 1px solid #444; */
+  /* padding: 20px; */
+  /* background-color: #282c34; */
+  /* color: #ddd; */
+  /* margin-left: 20px; */
+  /* max-height:  calc(100vh);    */
+  /* } */
+  .set-builder-panel {
+    width: 70%;
+    border: 1px solid #444;
+    padding: 20px;
+    background-color: #282c34;
+    color: #ddd;
+    margin-left: 20px;
+  }
+  
+  .armor-pieces {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .armor-piece {
+    flex: 1 1 20%; /* Adjust as needed */
+    margin-right: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .armor-piece h3 {
+    margin-top: 0;
+    font-size: 16px; /* Adjust font size */
+  }
+  
+  .armor-piece p {
+    font-size: 14px; /* Adjust font size */
+  }
+  
+  .armor-skills {
+    margin-top: 20px;
+  }
+  
+  .armor-skills ul {
+    padding-left: 20px;
+    font-size: 14px; /* Adjust font size */
+  }
+  
