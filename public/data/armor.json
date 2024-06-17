@@ -1746,6 +1746,64 @@
                 ]
             }
         ]
+    },
+    {
+        "Basarios Set": [
+            {
+                "slot": "Head",
+                "name": "Basarios Helm",
+                "skills": [
+                    {
+                        "name": "Sleep Resistance",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Torso",
+                "name": "Basarios Mail",
+                "skills": [
+                    {
+                        "name": "Artillery",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Arms",
+                "name": "Basarios Vambraces",
+                "skills": [
+                    {
+                        "name": "Recoil Down",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Waist",
+                "name": "Basarios Coil",
+                "skills": [
+                    {
+                        "name": "Fire Attack",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Legs",
+                "name": "Basarios Greaves",
+                "skills": [
+                    {
+                        "name": "Artillery",
+                        "level": 1
+                    },
+                    {
+                        "name": "Guard",
+                        "level": 1
+                    }
+                ]
+            }
+        ]
     }
 
 ]
