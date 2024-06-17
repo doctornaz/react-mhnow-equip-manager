@@ -1676,6 +1676,76 @@
                 ]
             }
         ]
+    },
+    {
+        "Deviljho Set": [
+            {
+                "slot": "Head",
+                "name": "Vangis Helm",
+                "skills": [
+                    {
+                        "name": "Slugger",
+                        "level": 2
+                    },
+                    {
+                        "name": "Dragon Attack",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Torso",
+                "name": "Vangis Mail",
+                "skills": [
+                    {
+                        "name": "Latent Power",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Arms",
+                "name": "Vangis Vambraces",
+                "skills": [
+                    {
+                        "name": "Peak Performance",
+                        "level": 2
+                    },
+                    {
+                        "name": "Dragon Attack",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Waist",
+                "name": "Vangis Coil",
+                "skills": [
+                    {
+                        "name": "Dragon Attack",
+                        "level": 2
+                    },
+                    {
+                        "name": "Tremor Resistance",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Legs",
+                "name": "Vangis Greaves",
+                "skills": [
+                    {
+                        "name": "Guts",
+                        "level": 2
+                    },
+                    {
+                        "name": "Latent Power",
+                        "level": 1
+                    }
+                ]
+            }
+        ]
     }
 
 ]
