@@ -52,7 +52,8 @@
     {
         "name": "Attack Boost",
         "description": "Increases attack power.",
-        "type": "offensive"
+        "type": "offensive",
+        "limit": 5
     },
     {
         "name": "Poison Attack",
@@ -67,7 +68,8 @@
     {
         "name": "Water Attack",
         "description": "Increases weapon's water-element value.",
-        "type": "offensive"
+        "type": "offensive",
+        "limit": 5
     },
     {
         "name": "Ice Attack",
@@ -82,7 +84,8 @@
     {
         "name": "Critical Eye",
         "description": "Increases affinity.",
-        "type": "offensive"
+        "type": "offensive",
+        "limit": 5
     },
     {
         "name": "Fortify",
@@ -167,12 +170,14 @@
     {
         "name": "Health Boost",
         "description": "Increases health.",
-        "type": "defensive"
+        "type": "defensive",
+        "limit": 5
     },
     {
         "name": "Defense Boost",
         "description": "Increases defense.",
-        "type": "defensive"
+        "type": "defensive",
+        "limit": 5
     },
     {
         "name": "Poison Resistance",
@@ -187,22 +192,26 @@
     {
         "name": "Fire Resistance",
         "description": "Decreases damage from fire-element monsters.",
-        "type": "defensive"
+        "type": "defensive",
+        "limit": 5
     },
     {
         "name": "Water Resistance",
         "description": "Decreases damage from water-element monsters.",
-        "type": "defensive"
+        "type": "defensive",
+        "limit": 5
     },
     {
         "name": "Ice Resistance",
         "description": "Decreases damage from ice-element monsters.",
-        "type": "defensive"
+        "type": "defensive",
+        "limit": 5
     },
     {
         "name": "Thunder Resistance",
         "description": "Decreases damage from thunder-element monsters.",
-        "type": "defensive"
+        "type": "defensive",
+        "limit": 5
     },
     {
         "name": "Divine Blessing",
@@ -272,7 +281,8 @@
     {
         "name": "Firm Foothold",
         "description": "Reduces knockback when taking damage.",
-        "type": "utility"
+        "type": "utility",
+        "limit": 3
     },
     {
         "name": "Earplugs",
@@ -282,7 +292,8 @@
     {
         "name": "Rising Tide",
         "description": "Increases attack power and defense as the hunt timer runs out.",
-        "type": "utility"
+        "type": "utility",
+        "limit": 5
     },
     {
         "name": "Windproof",
@@ -298,6 +309,7 @@
     {
         "name": "Lock On",
         "description": "If using close-range weapons, it displays a lock-on button while hunting, allowing a specific monster body part to be targeted.",
-        "type": "utility"
+        "type": "utility",
+        "limit": 1
     }
 ]
