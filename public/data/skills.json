@@ -93,17 +93,20 @@
     {
         "name": "Thunder Attack",
         "description": "Increases weapon's thunder-element value.",
-        "type": "offensive"
+        "type": "offensive",
+        "limit": 5
     },
     {
         "name": "Critical Eye",
         "description": "Increases affinity.",
-        "type": "offensive"
+        "type": "offensive",
+        "limit": 5
     },
     {
         "name": "Fortify",
         "description": "Increases attack power for a certain period each time you revive after fainting during a hunt.",
-        "type": "offensive"
+        "type": "offensive",
+        "limit": 5
     },
     {
         "name": "Weakness Exploit",
@@ -113,12 +116,14 @@
     {
         "name": "Focus",
         "description": "Shortens charging time for weapons with charge attacks by certain %, and increases the fill rate of the Spirit Gauge by certain %.",
-        "type": "offensive"
+        "type": "offensive",
+        "limit": 5
     },
     {
         "name": "Recoil Down",
         "description": "Reduces bowgun recoil.",
-        "type": "offensive"
+        "type": "offensive",
+        "limit": 3
     },
     {
         "name": "Offensive Guard",
@@ -138,7 +143,8 @@
     {
         "name": "Reload Speed",
         "description": "Reduces reload time for bowguns.",
-        "type": "offensive"
+        "type": "offensive",
+        "limit": 3
     },
     {
         "name": "Sneak Attack",
@@ -148,7 +154,8 @@
     {
         "name": "Peak Performance",
         "description": "Increases attack power when your health is full.",
-        "type": "offensive"
+        "type": "offensive",
+        "limit": 5
     },
     {
         "name": "Special Boost",
@@ -163,7 +170,8 @@
     {
         "name": "Special Insurance",
         "description": "Special Gauge increases when fainting during a hunt.",
-        "type": "defensive"
+        "type": "defensive",
+        "limit": 5
     },
     {
         "name": "Bleeding Resistance",
@@ -173,22 +181,26 @@
     {
         "name": "Tremor Resistance",
         "description": "Negates ground tremors.",
-        "type": "defensive"
+        "type": "defensive",
+        "limit": 3
     },
     {
         "name": "Sleep Resistance",
         "description": "Grants a chance to prevent sleep status/prevents sleep.",
-        "type": "defensive"
+        "type": "defensive",
+        "limit": 5
     },
     {
         "name": "Health Boost",
         "description": "Increases health.",
-        "type": "defensive"
+        "type": "defensive",
+        "limit": 5
     },
     {
         "name": "Defense Boost",
         "description": "Increases defense.",
-        "type": "defensive"
+        "type": "defensive",
+        "limit": 5
     },
     {
         "name": "Poison Resistance",
@@ -203,22 +215,26 @@
     {
         "name": "Fire Resistance",
         "description": "Decreases damage from fire-element monsters.",
-        "type": "defensive"
+        "type": "defensive",
+        "limit": 5
     },
     {
         "name": "Water Resistance",
         "description": "Decreases damage from water-element monsters.",
-        "type": "defensive"
+        "type": "defensive",
+        "limit": 5
     },
     {
         "name": "Ice Resistance",
         "description": "Decreases damage from ice-element monsters.",
-        "type": "defensive"
+        "type": "defensive",
+        "limit": 5
     },
     {
         "name": "Thunder Resistance",
         "description": "Decreases damage from thunder-element monsters.",
-        "type": "defensive"
+        "type": "defensive",
+        "limit": 5
     },
     {
         "name": "Divine Blessing",
@@ -228,7 +244,8 @@
     {
         "name": "Guard",
         "description": "Reduces damage and knockback when guarding against monster attacks.",
-        "type": "defensive"
+        "type": "defensive",
+        "limit": 5
     },
     {
         "name": "Last Stand",
@@ -238,17 +255,20 @@
     {
         "name": "Artful Dodger",
         "description": "Makes perfect evades easier to perform.",
-        "type": "defensive"
+        "type": "defensive",
+        "limit": 5
     },
     {
         "name": "Guts",
         "description": "Survive lethal damage taken at certain health or above.",
-        "type": "defensive"
+        "type": "defensive",
+        "limit": 5
     },
     {
         "name": "Kushala Frostwind",
         "description": "Reduces the effects of wind pressure/dragon wind pressure, and increases ice element attack power.",
-        "type": "utility"
+        "type": "utility",
+        "limit": 3
     },
     {
         "name": "Quick Work",
@@ -258,7 +278,8 @@
     {
         "name": "Happy New Year (2024)",
         "description": "Wish other players a Happy New Year.",
-        "type": "utility"
+        "type": "utility",
+        "limit": 1
     },
     {
         "name": "Evasive Concentration",
@@ -273,32 +294,38 @@
     {
         "name": "Paralysis Attack",
         "description": "Increases weapon's paralysis buildup.",
-        "type": "utility"
+        "type": "utility",
+        "limit": 5
     },
     {
         "name": "Evade Extender",
         "description": "Extends evasion distance.",
-        "type": "utility"
+        "type": "utility",
+        "limit": 5
     },
     {
         "name": "Partbreaker",
         "description": "Increases damage accumulated upon breakable parts.",
-        "type": "utility"
+        "type": "utility",
+        "limit": 5
     },
     {
         "name": "Firm Foothold",
         "description": "Reduces knockback when taking damage.",
-        "type": "utility"
+        "type": "utility",
+        "limit": 3
     },
     {
         "name": "Earplugs",
         "description": "Reduces/Nullifies the effects of weak monster roars.",
-        "type": "utility"
+        "type": "utility",
+        "limit": 5
     },
     {
         "name": "Rising Tide",
         "description": "Increases attack power and defense as the hunt timer runs out.",
-        "type": "utility"
+        "type": "utility",
+        "limit": 5
     },
     {
         "name": "Windproof",
@@ -314,6 +341,7 @@
     {
         "name": "Lock On",
         "description": "If using close-range weapons, it displays a lock-on button while hunting, allowing a specific monster body part to be targeted.",
-        "type": "utility"
+        "type": "utility",
+        "limit": 1
     }
 ]
