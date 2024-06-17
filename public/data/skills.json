@@ -101,7 +101,8 @@
     {
         "name": "Focus",
         "description": "Shortens charging time for weapons with charge attacks by certain %, and increases the fill rate of the Spirit Gauge by certain %.",
-        "type": "offensive"
+        "type": "offensive",
+        "limit": 5
     },
     {
         "name": "Recoil Down",
@@ -152,7 +153,8 @@
     {
         "name": "Special Insurance",
         "description": "Special Gauge increases when fainting during a hunt.",
-        "type": "defensive"
+        "type": "defensive",
+        "limit": 5
     },
     {
         "name": "Bleeding Resistance",
@@ -233,7 +235,8 @@
     {
         "name": "Artful Dodger",
         "description": "Makes perfect evades easier to perform.",
-        "type": "defensive"
+        "type": "defensive",
+        "limit": 5
     },
     {
         "name": "Guts",
@@ -270,17 +273,20 @@
     {
         "name": "Paralysis Attack",
         "description": "Increases weapon's paralysis buildup.",
-        "type": "utility"
+        "type": "utility",
+        "limit": 5
     },
     {
         "name": "Evade Extender",
         "description": "Extends evasion distance.",
-        "type": "utility"
+        "type": "utility",
+        "limit": 5
     },
     {
         "name": "Partbreaker",
         "description": "Increases damage accumulated upon breakable parts.",
-        "type": "utility"
+        "type": "utility",
+        "limit": 5
     },
     {
         "name": "Firm Foothold",
