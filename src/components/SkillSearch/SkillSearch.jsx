@@ -6,6 +6,7 @@ const SkillSearch = () => {
     const [skills, setSkills] = useState([]);
     const [filteredSkills, setFilteredSkills] = useState([]);
     const [selectedSkills, setSelectedSkills] = useState([]);
+    const [showSidebar, setShowSidebar] = useState(true);
 
     useEffect(() => {
         fetch('/data/skills.json')
@@ -33,24 +34,33 @@ const SkillSearch = () => {
         }
     };
 
+    const toggleSidebar = () => {
+        setShowSidebar(!showSidebar);
+    };
+
     return (
         <div className="skill-search-container">
-            <div className="search-box">
-                <input
-                    type="text"
-                    placeholder="Search skills..."
-                    value={searchTerm}
-                    onChange={e => setSearchTerm(e.target.value)}
-                />
-                <div className="selected-skills-panel">
-                    <h3>Selected Skills:</h3>
-                    {selectedSkills.map((skill, index) => (
-                        <div key={index} className="skill-item">
-                            <strong>{skill.name}</strong>
-                        </div>
-                    ))}
-                </div>
+            <div className="hamburger" onClick={toggleSidebar}>
+                ☰
             </div>
+            {showSidebar && (
+                <div className="search-box">
+                    <input
+                        type="text"
+                        placeholder="Search skills..."
+                        value={searchTerm}
+                        onChange={e => setSearchTerm(e.target.value)}
+                    />
+                    <div className="selected-skills-panel">
+                        <h3>Selected Skills:</h3>
+                        {selectedSkills.map((skill, index) => (
+                            <div key={index} className="skill-item">
+                                <strong>{skill.name}</strong>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+            )}
             <div className="results-panel">
                 {filteredSkills.map((skill, index) => (
                     <div key={index} className="skill-item">
