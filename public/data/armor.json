@@ -1806,7 +1806,7 @@
         ]
     },
     {
-        "Khezu  Set": [
+        "Khezu Set": [
             {
                 "slot": "Head",
                 "name": "Khezu Helm",
@@ -1865,6 +1865,100 @@
                     },
                     {
                         "name": "Slugger",
+                        "level": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Kushala Daora Set": [
+            {
+                "slot": "Head",
+                "name": "Kushala Glare",
+                "skills": [
+                    {
+                        "name": "Kushala Frostwind",
+                        "level": 1
+                    },
+                    {
+                        "name": "Reload Speed",
+                        "level": 1
+                    },
+                    {
+                        "name": "Earplugs",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Torso",
+                "name": "Kushala Cista",
+                "skills": [
+                    {
+                        "name": "Kushala Frostwind",
+                        "level": 1
+                    },
+                    {
+                        "name": "Partbreaker",
+                        "level": 1
+                    },
+                    {
+                        "name": "Health Boost",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Arms",
+                "name": "Kushala Grip",
+                "skills": [
+                    {
+                        "name": "Kushala Frostwind",
+                        "level": 1
+                    },
+                    {
+                        "name": "Focus",
+                        "level": 1
+                    },
+                    {
+                        "name": "Evade Extender",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Waist",
+                "name": "Kushala Cocoon",
+                "skills": [
+                    {
+                        "name": "Kushala Frostwind",
+                        "level": 1
+                    },
+                    {
+                        "name": "Weakness Exploit",
+                        "level": 1
+                    },
+                    {
+                        "name": "Windproof",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Legs",
+                "name": "Kushala Crus",
+                "skills": [
+                    {
+                        "name": "Kushala Frostwind",
+                        "level": 1
+                    },
+                    {
+                        "name": "Skyward Striker",
+                        "level": 1
+                    },
+                    {
+                        "name": "Artful Dodger",
                         "level": 1
                     }
                 ]
