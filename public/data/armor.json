@@ -1470,5 +1470,71 @@
                 ]
             }
         ]
+    },
+    {
+        "Tzitzi-Ya-Ku Armor Set": [
+            {
+                "slot": "Head",
+                "name": "Tzitzi Headgear",
+                "skills": [
+                    {
+                        "name": "Thunder Attack",
+                        "level": 2
+                    },
+                    {
+                        "name": "Evade Extender",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Torso",
+                "name": "Tzitzi Mail",
+                "skills": [
+                    {
+                        "name": "Status Sneak Attack",
+                        "level": 1
+                    },
+                    {
+                        "name": "Artful Dodger",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Arms",
+                "name": "Tzitzi Vambraces",
+                "skills": [
+                    {
+                        "name": "Status Sneak Attack",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Waist",
+                "name": "Tzitzi Coil",
+                "skills": [
+                    {
+                        "name": "Evade Extender",
+                        "level": 1
+                    },
+                    {
+                        "name": "Status Sneak Attack",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Legs",
+                "name": "Tzitzi Greaves",
+                "skills": [
+                    {
+                        "name": "Fortify",
+                        "level": 2
+                    }
+                ]
+            }
+        ]
     }
 ]
