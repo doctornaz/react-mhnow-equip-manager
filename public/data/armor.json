@@ -1804,6 +1804,72 @@
                 ]
             }
         ]
+    },
+    {
+        "Khezu  Set": [
+            {
+                "slot": "Head",
+                "name": "Khezu Helm",
+                "skills": [
+                    {
+                        "name": "Paralysis Attack",
+                        "level": 1
+                    },
+                    {
+                        "name": "Special Insurance",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Torso",
+                "name": "Khezu Mail",
+                "skills": [
+                    {
+                        "name": "Thunder Attack",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Arms",
+                "name": "Khezu Vambraces",
+                "skills": [
+                    {
+                        "name": "Special Insurance",
+                        "level": 2
+                    },
+                    {
+                        "name": "Fortify",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Waist",
+                "name": "Khezu Coil",
+                "skills": [
+                    {
+                        "name": "Paralysis Resistance",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Legs",
+                "name": "Khezu Greaves",
+                "skills": [
+                    {
+                        "name": "Focus",
+                        "level": 1
+                    },
+                    {
+                        "name": "Slugger",
+                        "level": 1
+                    }
+                ]
+            }
+        ]
     }
 
 ]
