@@ -7,12 +7,14 @@
     {
         "name": "Artillery",
         "description": "Increases the damage of gunlance's ammo/Wyvern's Fire attacks, charge blade's phial attacks, and sticky ammo.",
-        "type": "offensive"
+        "type": "offensive",
+        "limit": 5
     },
     {
         "name": "Latent Power",
         "description": "Raises Affinity and Special Gauge fill rate when certain conditions are met.",
-        "type": "offensive"
+        "type": "offensive",
+        "limit": 5
     },
     {
         "name": "Power Prolonger",
@@ -48,7 +50,8 @@
     {
         "name": "Dragon Attack",
         "description": "Increases weapon's dragon-element value.",
-        "type": "offensive"
+        "type": "offensive",
+        "limit": 5
     },
     {
         "name": "Attack Boost",
@@ -64,7 +67,8 @@
     {
         "name": "Fire Attack",
         "description": "Increases weapon's fire-element value.",
-        "type": "offensive"
+        "type": "offensive",
+        "limit": 5
     },
     {
         "name": "Water Attack",
@@ -80,7 +84,8 @@
     {
         "name": "Thunder Attack",
         "description": "Increases weapon's thunder-element value.",
-        "type": "offensive"
+        "type": "offensive",
+        "limit": 5
     },
     {
         "name": "Critical Eye",
@@ -91,7 +96,8 @@
     {
         "name": "Fortify",
         "description": "Increases attack power for a certain period each time you revive after fainting during a hunt.",
-        "type": "offensive"
+        "type": "offensive",
+        "limit": 5
     },
     {
         "name": "Weakness Exploit",
@@ -107,7 +113,8 @@
     {
         "name": "Recoil Down",
         "description": "Reduces bowgun recoil.",
-        "type": "offensive"
+        "type": "offensive",
+        "limit": 3
     },
     {
         "name": "Offensive Guard",
@@ -138,7 +145,8 @@
     {
         "name": "Peak Performance",
         "description": "Increases attack power when your health is full.",
-        "type": "offensive"
+        "type": "offensive",
+        "limit": 5
     },
     {
         "name": "Special Boost",
@@ -164,12 +172,14 @@
     {
         "name": "Tremor Resistance",
         "description": "Negates ground tremors.",
-        "type": "defensive"
+        "type": "defensive",
+        "limit": 3
     },
     {
         "name": "Sleep Resistance",
         "description": "Grants a chance to prevent sleep status/prevents sleep.",
-        "type": "defensive"
+        "type": "defensive",
+        "limit": 5
     },
     {
         "name": "Health Boost",
@@ -225,7 +235,8 @@
     {
         "name": "Guard",
         "description": "Reduces damage and knockback when guarding against monster attacks.",
-        "type": "defensive"
+        "type": "defensive",
+        "limit": 5
     },
     {
         "name": "Last Stand",
@@ -241,7 +252,8 @@
     {
         "name": "Guts",
         "description": "Survive lethal damage taken at certain health or above.",
-        "type": "defensive"
+        "type": "defensive",
+        "limit": 5
     },
     {
         "name": "Kushala Frostwind",
