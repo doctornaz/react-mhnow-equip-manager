@@ -2,77 +2,93 @@
     {
         "name": "Hunter's Unity",
         "description": "The more companions there are activating the same skill, the greater the damage inflicted.",
-        "type": "offensive"
+        "type": "offensive",
+        "limit": 1
+        
     },
     {
         "name": "Artillery",
         "description": "Increases the damage of gunlance's ammo/Wyvern's Fire attacks, charge blade's phial attacks, and sticky ammo.",
-        "type": "offensive"
+        "type": "offensive",
+        "limit": 5
     },
     {
         "name": "Latent Power",
         "description": "Raises Affinity and Special Gauge fill rate when certain conditions are met.",
-        "type": "offensive"
+        "type": "offensive",
+        "limit": 5
     },
     {
         "name": "Power Prolonger",
         "description": "Extends the duration of the powered-up state granted by dual blades, long swords, and charge blades.",
-        "type": "offensive"
+        "type": "offensive",
+        "limit": 5
     },
     {
         "name": "Status Sneak Attack",
         "description": "Makes it more probable to inflict status ailment buildup when attacking a monster from behind.",
-        "type": "offensive"
+        "type": "offensive",
+        "limit": 5
     },
     {
         "name": "Critical Boost",
         "description": "Increases the damage multiplier of critical hits.",
-        "type": "offensive"
+        "type": "offensive",
+        "limit": 5
     },
     {
         "name": "Skyward Striker",
         "description": "Increases the damage of aerial attacks.",
-        "type": "offensive"
+        "type": "offensive",
+        "limit": 5
     },
     {
         "name": "Sleep Attack",
         "description": "Increases weapon's sleep buildup.",
-        "type": "offensive"
+        "type": "offensive",
+        "limit": 5
     },
     {
         "name": "Resentment",
         "description": "When taking damage, attack power is increased for 15 seconds.",
-        "type": "offensive"
+        "type": "offensive",
+        "limit": 5
     },
     {
         "name": "Dragon Attack",
         "description": "Increases weapon's dragon-element value.",
-        "type": "offensive"
+        "type": "offensive",
+        "limit": 5
     },
     {
         "name": "Attack Boost",
         "description": "Increases attack power.",
-        "type": "offensive"
+        "type": "offensive",
+        "limit": 5
     },
     {
         "name": "Poison Attack",
         "description": "Increases weapon's poison buildup value.",
-        "type": "offensive"
+        "type": "offensive",
+        "limit": 5
     },
     {
         "name": "Fire Attack",
         "description": "Increases weapon's fire-element value.",
-        "type": "offensive"
+        "type": "offensive",
+        "limit": 5
     },
     {
         "name": "Water Attack",
         "description": "Increases weapon's water-element value.",
-        "type": "offensive"
+        "type": "offensive",
+        "limit": 5
     },
     {
         "name": "Ice Attack",
         "description": "Increases weapon's ice-element value.",
-        "type": "offensive"
+        "type": "offensive",
+        "limit": 5
     },
     {
         "name": "Thunder Attack",
