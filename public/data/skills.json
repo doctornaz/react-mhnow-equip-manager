@@ -27,7 +27,8 @@
     {
         "name": "Critical Boost",
         "description": "Increases the damage multiplier of critical hits.",
-        "type": "offensive"
+        "type": "offensive",
+        "limit": 5
     },
     {
         "name": "Skyward Striker",
@@ -125,7 +126,8 @@
     {
         "name": "Reload Speed",
         "description": "Reduces reload time for bowguns.",
-        "type": "offensive"
+        "type": "offensive",
+        "limit": 3
     },
     {
         "name": "Sneak Attack",
@@ -241,7 +243,8 @@
     {
         "name": "Kushala Frostwind",
         "description": "Reduces the effects of wind pressure/dragon wind pressure, and increases ice element attack power.",
-        "type": "utility"
+        "type": "utility",
+        "limit": 3
     },
     {
         "name": "Quick Work",
@@ -251,7 +254,8 @@
     {
         "name": "Happy New Year (2024)",
         "description": "Wish other players a Happy New Year.",
-        "type": "utility"
+        "type": "utility",
+        "limit": 1
     },
     {
         "name": "Evasive Concentration",
@@ -287,7 +291,8 @@
     {
         "name": "Earplugs",
         "description": "Reduces/Nullifies the effects of weak monster roars.",
-        "type": "utility"
+        "type": "utility",
+        "limit": 5
     },
     {
         "name": "Rising Tide",
