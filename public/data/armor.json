@@ -1602,5 +1602,80 @@
                 ]
             }
         ]
+    },
+    {
+        "Coral Pukei-Pukei Set": [
+            {
+                "slot": "Head",
+                "name": "Pukei Lagoon Hat",
+                "skills": [
+                    {
+                        "name": "Weakness Exploit",
+                        "level": 2
+                    },
+                    {
+                        "name": "Lock On",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Torso",
+                "name": "Pukei Lagoon Mail",
+                "skills": [
+                    {
+                        "name": "Power Prolonger",
+                        "level": 2
+                    },
+                    {
+                        "name": "Rising Tide",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Arms",
+                "name": "Pukei Lagoon Braces",
+                "skills": [
+                    {
+                        "name": "Rising Tide",
+                        "level": 1
+                    },
+                    {
+                        "name": "Skyward Striker",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Waist",
+                "name": "Pukei Lagoon Coil",
+                "skills": [
+                    {
+                        "name": "Reload Speed",
+                        "level": 1
+                    },
+                    {
+                        "name": "Recoil Down",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Legs",
+                "name": "Pukei Lagoon Greaves",
+                "skills": [
+                    {
+                        "name": "Power Prolonger",
+                        "level": 2
+                    },
+                    {
+                        "name": "Weakness Exploit",
+                        "level": 2
+                    }
+                ]
+            }
+        ]
     }
+
 ]
