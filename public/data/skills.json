@@ -4,7 +4,6 @@
         "description": "The more companions there are activating the same skill, the greater the damage inflicted.",
         "type": "offensive",
         "limit": 1
-        
     },
     {
         "name": "Artillery",
@@ -111,7 +110,8 @@
     {
         "name": "Weakness Exploit",
         "description": "Increases affinity when attacking a monster's weak spot.",
-        "type": "offensive"
+        "type": "offensive",
+        "limit": 5
     },
     {
         "name": "Focus",
@@ -128,17 +128,20 @@
     {
         "name": "Offensive Guard",
         "description": "Increases attack power for certain seconds after executing a well-timed guard.",
-        "type": "offensive"
+        "type": "offensive",
+        "limit": 5
     },
     {
         "name": "Burst",
         "description": "Landing consecutive hits in a short span of time increases attack power for certain seconds.",
-        "type": "offensive"
+        "type": "offensive",
+        "limit": 5
     },
     {
         "name": "Heroics",
         "description": "Increases attack power when your health drops below a certain level.",
-        "type": "offensive"
+        "type": "offensive",
+        "limit": 5
     },
     {
         "name": "Reload Speed",
@@ -149,7 +152,8 @@
     {
         "name": "Sneak Attack",
         "description": "Increases damage when attacking a monster from behind.",
-        "type": "offensive"
+        "type": "offensive",
+        "limit": 5
     },
     {
         "name": "Peak Performance",
@@ -160,12 +164,14 @@
     {
         "name": "Special Boost",
         "description": "Increases the damage of special skills.",
-        "type": "offensive"
+        "type": "offensive",
+        "limit": 5
     },
     {
         "name": "Solidarity (Pumpkin Hunt)",
         "description": "Increases attack power the more of your fellow hunters have this skill activated.",
-        "type": "offensive"
+        "type": "offensive",
+        "limit": 1
     },
     {
         "name": "Special Insurance",
@@ -176,7 +182,8 @@
     {
         "name": "Bleeding Resistance",
         "description": "Grants a chance to prevent bleeding status.",
-        "type": "defensive"
+        "type": "defensive",
+        "limit": 5
     },
     {
         "name": "Tremor Resistance",
@@ -205,12 +212,14 @@
     {
         "name": "Poison Resistance",
         "description": "Grants a chance to prevent poison status/prevents poisoning.",
-        "type": "defensive"
+        "type": "defensive",
+        "limit": 5
     },
     {
         "name": "Paralysis Resistance",
         "description": "Grants a chance to prevent paralysis status/prevents paralysis.",
-        "type": "defensive"
+        "type": "defensive",
+        "limit": 5
     },
     {
         "name": "Fire Resistance",
@@ -239,7 +248,8 @@
     {
         "name": "Divine Blessing",
         "description": "Chance of halving the damage caused by a monster's attack.",
-        "type": "defensive"
+        "type": "defensive",
+        "limit": 5
     },
     {
         "name": "Guard",
@@ -250,7 +260,8 @@
     {
         "name": "Last Stand",
         "description": "Increases defense when your health drops below a certain level.",
-        "type": "defensive"
+        "type": "defensive",
+        "limit": 5
     },
     {
         "name": "Artful Dodger",
@@ -273,7 +284,8 @@
     {
         "name": "Quick Work",
         "description": "Increases the speed of sheathing or transforming your weapon.",
-        "type": "utility"
+        "type": "utility",
+        "limit": 3
     },
     {
         "name": "Happy New Year (2024)",
@@ -284,12 +296,14 @@
     {
         "name": "Evasive Concentration",
         "description": "Fills Special Gauge after performing a perfect evade.",
-        "type": "utility"
+        "type": "utility",
+        "limit": 5
     },
     {
         "name": "Concentration",
         "description": "Increases special gauge fill rate.",
-        "type": "utility"
+        "type": "utility",
+        "limit": 5
     },
     {
         "name": "Paralysis Attack",
