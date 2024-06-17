@@ -1536,5 +1536,71 @@
                 ]
             }
         ]
+    },
+    {
+        "Odogaron Armor Set": [
+            {
+                "slot": "Head",
+                "name": "Odogaron Helm",
+                "skills": [
+                    {
+                        "name": "Quick Work",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Torso",
+                "name": "Odogaron Mail",
+                "skills": [
+                    {
+                        "name": "Critical Eye",
+                        "level": 2
+                    },
+                    {
+                        "name": "Bleeding Resistance",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Arms",
+                "name": "Odogaron Vambraces",
+                "skills": [
+                    {
+                        "name": "Quick Work",
+                        "level": 1
+                    },
+                    {
+                        "name": "Bleeding Resistance",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Waist",
+                "name": "Odogaron Coil",
+                "skills": [
+                    {
+                        "name": "Critical Eye",
+                        "level": 1
+                    },
+                    {
+                        "name": "Evasive Concentration",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Legs",
+                "name": "Odogaron Greaves",
+                "skills": [
+                    {
+                        "name": "Evasive Concentration",
+                        "level": 2
+                    }
+                ]
+            }
+        ]
     }
 ]
