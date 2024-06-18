@@ -29,17 +29,6 @@
   align-items: center;
 }
 
-.skill-bar {
-  width: 20px;
-  height: 10px;
-  margin-right: 2px;
-  background-color: #555;
-}
-
-.skill-bar.full {
-  background-color: #0f0;
-}
-
 .skill-bar.empty {
   background-color: #333;
 }

@@ -33,6 +33,15 @@ const SelectedSkills = ({ selectedSkills, armorData }) => {
         return matchingArmor.sort((a, b) => b.level - a.level);
     };
 
+    // Function to calculate bars based on skill level
+    const calculateBars = (level) => {
+        const bars = [];
+        for (let i = 1; i <= level; i++) {
+            bars.push(<div key={i} className="skill-bar full"></div>);
+        }
+        return bars;
+    };
+
     // Function to find the best armor combination for all selected skills
     const findBestArmor = () => {
         const skillLevels = {}; // Object to store total skill levels
@@ -94,8 +103,7 @@ const SelectedSkills = ({ selectedSkills, armorData }) => {
                                         : ''
                                 }
                             >
-                                {/* {armor.name} - Level {armor.level} (Slot: {armor.slot}, Set: {armor.setName}) */}
-                                {armor.slot}: {armor.name} - {armor.level}
+                                {armor.slot}: {armor.name} - <div className="skill-bars inline">{calculateBars(armor.level)}</div>
                             </li>
                         ))}
                     </ul>
