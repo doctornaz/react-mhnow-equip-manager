@@ -1,5 +1,6 @@
 import React from 'react';
 import './SetBuilder.css';
+import Panel from '../Panel/Panel';
 
 const SetBuilder = ({ armorData, selectedSkills, skills }) => {
     const buildArmorSet = (armorData, selectedSkills) => {
@@ -87,7 +88,7 @@ const SetBuilder = ({ armorData, selectedSkills, skills }) => {
     const uniqueSkills = [...new Set(Object.keys(skillLevels).concat(selectedSkills.map(skill => skill.name)))];
 
     return (
-        <div className="set-builder-panel">
+        <Panel className="">
             <h2>Armor Set</h2>
             <ul>
                 {Object.keys(armorSet).map(slot => (
@@ -107,7 +108,7 @@ const SetBuilder = ({ armorData, selectedSkills, skills }) => {
                     </li>
                 ))}
             </ul>
-        </div>
+        </Panel>
     );
 };
 

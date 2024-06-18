@@ -1,15 +1,4 @@
 .selected-skills-panel {
-    /* width: calc(100% - 300px); */
-    /* width: 30%;
-    max-width: 500px;
-    border: 1px solid #444;
-    padding: 20px;
-    background-color: #282c34;
-    color: #ddd;
-    margin-left: 20px;       */
-  }
-
-  .selected-skills-panel {
   padding: 20px;
   background-color: #1e2023;
   color: #ddd;

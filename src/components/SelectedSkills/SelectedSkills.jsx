@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './SelectedSkills.css';
+import Panel from '../Panel/Panel';
 
 const SelectedSkills = ({ selectedSkills, armorData }) => {
     const [previewBest, setPreviewBest] = useState(false);
@@ -76,7 +77,7 @@ const SelectedSkills = ({ selectedSkills, armorData }) => {
     const bestArmor = previewBest ? findBestArmor() : {};
 
     return (
-        <div className="selected-skills-panel">
+        <Panel>
             <div className="toolbar">
                 <label>
                     <input
@@ -109,7 +110,7 @@ const SelectedSkills = ({ selectedSkills, armorData }) => {
                     </ul>
                 </div>
             ))}
-        </div>
+        </Panel>
     );
 };
 

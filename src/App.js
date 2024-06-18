@@ -35,12 +35,8 @@ function App() {
             <Sidebar skills={skills} onSkillSelect={handleSkillSelect} />
             <div className="content">
                 <div className="main-content">
-                    <Panel className="">
-                        <SelectedSkills selectedSkills={selectedSkills} armorData={armorData} />
-                    </Panel>
-                    <Panel className="">
-                        <SetBuilder armorData={armorData} selectedSkills={selectedSkills} skills={skills}/>
-                    </Panel>
+                    <SelectedSkills selectedSkills={selectedSkills} armorData={armorData} />
+                    <SetBuilder armorData={armorData} selectedSkills={selectedSkills} skills={skills}/>
                 </div>
             </div>
         </div>
