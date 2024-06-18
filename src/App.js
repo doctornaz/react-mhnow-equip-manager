@@ -34,10 +34,8 @@ function App() {
         <div className="App">
             <Sidebar skills={skills} onSkillSelect={handleSkillSelect} />
             <div className="content">
-                <div className="main-content">
-                    <SelectedSkills selectedSkills={selectedSkills} armorData={armorData} />
+                    <SelectedSkills armorData={armorData} selectedSkills={selectedSkills} />
                     <SetBuilder armorData={armorData} selectedSkills={selectedSkills} skills={skills}/>
-                </div>
             </div>
         </div>
     );

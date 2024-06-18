@@ -1,10 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './SelectedSkills.css';
 import Panel from '../Panel/Panel';
 
 const SelectedSkills = ({ selectedSkills, armorData }) => {
-    const [previewBest, setPreviewBest] = useState(false);
-
     // Function to filter and sort armor data based on selected skills
     const getMatchingArmor = (skillName) => {
         if (!armorData) return []; // Return empty array if armorData is undefined
@@ -74,20 +72,10 @@ const SelectedSkills = ({ selectedSkills, armorData }) => {
         return bestArmor;
     };
 
-    const bestArmor = previewBest ? findBestArmor() : {};
+    const bestArmor = findBestArmor();
 
     return (
         <Panel>
-            <div className="toolbar">
-                <label>
-                    <input
-                        type="checkbox"
-                        checked={previewBest}
-                        onChange={(e) => setPreviewBest(e.target.checked)}
-                    />
-                    Preview best possible
-                </label>
-            </div>
             <h3>Selected Skills:</h3>
             {selectedSkills.map((skill, index) => (
                 <div key={index} className="skill-item">
@@ -98,7 +86,6 @@ const SelectedSkills = ({ selectedSkills, armorData }) => {
                             <li
                                 key={idx}
                                 className={
-                                    previewBest &&
                                     bestArmor[skill.name]?.find((a) => a.name === armor.name)
                                         ? 'best-armor'
                                         : ''
