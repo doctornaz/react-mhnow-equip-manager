@@ -39,7 +39,7 @@ function App() {
                         <SelectedSkills selectedSkills={selectedSkills} armorData={armorData} />
                     </Panel>
                     <Panel className="">
-                        <SetBuilder armorData={armorData} selectedSkills={selectedSkills} />
+                        <SetBuilder armorData={armorData} selectedSkills={selectedSkills} skills={skills}/>
                     </Panel>
                 </div>
             </div>

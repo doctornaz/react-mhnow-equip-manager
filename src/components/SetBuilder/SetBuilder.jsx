@@ -1,7 +1,7 @@
 import React from 'react';
 import './SetBuilder.css';
 
-const SetBuilder = ({ armorData, selectedSkills }) => {
+const SetBuilder = ({ armorData, selectedSkills, skills }) => {
     const buildArmorSet = (armorData, selectedSkills) => {
         const slots = ['Head', 'Torso', 'Arms', 'Waist', 'Legs'];
         const armorSet = {};
@@ -55,6 +55,16 @@ const SetBuilder = ({ armorData, selectedSkills }) => {
         return skillLevels;
     };
 
+    const findSkillLimit = (skillName) => {
+        const selectedSkill = selectedSkills.find(skill => skill.name === skillName);
+        if (selectedSkill) {
+            return selectedSkill.limit;
+        } else {
+            const skillFromState = skills.find(skill => skill.name === skillName);
+            return skillFromState ? skillFromState.limit : 0;
+        }
+    };
+
     const buildSkillBars = (level, limit) => {
         const bars = [];
         for (let i = 1; i <= (limit || 0); i++) {
@@ -70,6 +80,9 @@ const SetBuilder = ({ armorData, selectedSkills }) => {
     const armorSet = buildArmorSet(armorData, selectedSkills);
     const skillLevels = calculateSkills(armorSet, armorData);
 
+    // Get all unique skills from the armor set
+    const uniqueSkills = [...new Set(Object.keys(skillLevels).concat(selectedSkills.map(skill => skill.name)))];
+
     return (
         <div className="set-builder-panel">
             <h2>Armor Set</h2>
@@ -82,11 +95,11 @@ const SetBuilder = ({ armorData, selectedSkills }) => {
             </ul>
             <h2>Skills</h2>
             <ul>
-                {Object.keys(skillLevels).map(skill => (
+                {uniqueSkills.map(skill => (
                     <li key={skill}>
                         <strong>{skill}:</strong>
-                        <div className="skill-bars">
-                            {buildSkillBars(skillLevels[skill], selectedSkills.find(s => s.name === skill)?.limit)}
+                        <div className="skill-bars inline">
+                            {buildSkillBars(skillLevels[skill], findSkillLimit(skill))}
                         </div>
                     </li>
                 ))}
