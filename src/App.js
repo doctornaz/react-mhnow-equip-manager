@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import './App.css';
-import Panel from './components/Panel/Panel'
 import Sidebar from './components/Sidebar/Sidebar';
 import SelectedSkills from './components/SelectedSkills/SelectedSkills';
 import SetBuilder from './components/SetBuilder/SetBuilder';
+import './App.css';
 
 function App() {
     const [skills, setSkills] = useState([]);
@@ -34,8 +33,8 @@ function App() {
         <div className="App">
             <Sidebar skills={skills} onSkillSelect={handleSkillSelect} />
             <div className="content">
-                    <SelectedSkills armorData={armorData} selectedSkills={selectedSkills} />
-                    <SetBuilder armorData={armorData} selectedSkills={selectedSkills} skills={skills}/>
+                <SelectedSkills armorData={armorData} selectedSkills={selectedSkills} />
+                <SetBuilder armorData={armorData} selectedSkills={selectedSkills} skills={skills}/>
             </div>
         </div>
     );
