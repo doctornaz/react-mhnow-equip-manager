@@ -1,9 +1,50 @@
 .selected-skills-panel {
-    width: calc(100% - 300px);
+    /* width: calc(100% - 300px); */
+    /* width: 30%;
     max-width: 500px;
     border: 1px solid #444;
     padding: 20px;
     background-color: #282c34;
     color: #ddd;
-    margin-left: 20px;      
+    margin-left: 20px;       */
   }
+
+  .selected-skills-panel {
+  padding: 20px;
+  background-color: #1e2023;
+  color: #ddd;
+  border-radius: 5px;
+}
+
+.toolbar {
+  margin-bottom: 20px;
+}
+
+.skill-item {
+  margin-bottom: 15px;
+}
+
+.skill-bars {
+  display: flex;
+  align-items: center;
+}
+
+.skill-bar {
+  width: 20px;
+  height: 10px;
+  margin-right: 2px;
+  background-color: #555;
+}
+
+.skill-bar.full {
+  background-color: #0f0;
+}
+
+.skill-bar.empty {
+  background-color: #333;
+}
+
+.best-armor {
+  font-weight: bold;
+  color: #ff0;
+}

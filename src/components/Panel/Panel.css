@@ -1,0 +1,21 @@
+.panel {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+  box-sizing: border-box;
+  background-color: #282c34;
+}
+
+/* Flex items for each panel */
+.main-content > .panel {
+    flex: 1 1 calc(50% - 20px); 
+    box-sizing: border-box;
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 768px) {
+    .main-content > .panel {
+      flex: 1 1 100%;
+    }
+  }

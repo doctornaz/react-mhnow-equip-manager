@@ -39,10 +39,13 @@ const SetBuilder = ({ armorData, selectedSkills, skills }) => {
                         armorSetData[setName].forEach(piece => {
                             if (piece.name === pieceName) {
                                 piece.skills.forEach(skill => {
+                                    // Check skill limit
+                                    const limit = findSkillLimit(skill.name);
                                     if (skillLevels[skill.name]) {
-                                        skillLevels[skill.name] += skill.level;
+                                        // Prevent exceeding skill limit
+                                        skillLevels[skill.name] = Math.min(skillLevels[skill.name] + skill.level, limit);
                                     } else {
-                                        skillLevels[skill.name] = skill.level;
+                                        skillLevels[skill.name] = Math.min(skill.level, limit);
                                     }
                                 });
                             }

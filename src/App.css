@@ -1,15 +1,27 @@
 .App {
-  text-align: center;
+  display: flex;
   background-color: #282c34;
   min-height: 100vh;
   font-size: calc(10px + 2vmin);
+  color: white; /* Ensure text color is readable */
 }
 
 .content {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  flex-grow: 1;
+  box-sizing: border-box;
 }
 
 input[type="checkbox"] {
   margin-right: 10px;
+}
+
+/* Flex container for main content */
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  flex-grow: 1; /* Ensure it takes remaining space */
 }

@@ -4,6 +4,9 @@
   background-color: #131418;
   color: #ddd;
   overflow-y: auto;
+  flex-shrink: 0;
+  border-right: 1px solid #ccc;
+  box-sizing: border-box;
 }
 
 .sidebar-content {
@@ -44,10 +47,6 @@
 .clear-button:focus {
   outline: none;
   background-color: #444;
-}
-
-.filtered-skills {
-  /* Removed overflow-y from here */
 }
 
 .skill-item {
