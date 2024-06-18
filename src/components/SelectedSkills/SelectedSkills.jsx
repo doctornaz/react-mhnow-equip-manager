@@ -1,6 +1,7 @@
 import React from 'react';
 import './SelectedSkills.css';
 import Panel from '../Panel/Panel';
+import SkillBar from '../SkillBar/SkillBar';
 
 const SelectedSkills = ({ selectedSkills, armorData }) => {
     // Function to filter and sort armor data based on selected skills
@@ -91,7 +92,9 @@ const SelectedSkills = ({ selectedSkills, armorData }) => {
                                         : ''
                                 }
                             >
-                                {armor.slot}: {armor.name} - <div className="skill-bars inline">{calculateBars(armor.level)}</div>
+                                {armor.slot}: {armor.name} - 
+                                {/* <div className="skill-bars inline">{calculateBars(armor.level)}</div> */}
+                                <SkillBar level={armor.level} />
                             </li>
                         ))}
                     </ul>

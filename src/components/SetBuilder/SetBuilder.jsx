@@ -1,6 +1,7 @@
 import React from 'react';
 import './SetBuilder.css';
 import Panel from '../Panel/Panel';
+import SkillBar from '../SkillBar/SkillBar';
 
 const SetBuilder = ({ armorData, selectedSkills, skills }) => {
     const buildArmorSet = (armorData, selectedSkills) => {
@@ -69,18 +70,6 @@ const SetBuilder = ({ armorData, selectedSkills, skills }) => {
         }
     };
 
-    const buildSkillBars = (level, limit) => {
-        const bars = [];
-        for (let i = 1; i <= (limit || 0); i++) {
-            if (i <= level) {
-                bars.push(<div key={i} className="skill-bar full"></div>);
-            } else {
-                bars.push(<div key={i} className="skill-bar empty"></div>);
-            }
-        }
-        return bars;
-    };
-
     const armorSet = buildArmorSet(armorData, selectedSkills);
     const skillLevels = calculateSkills(armorSet, armorData);
 
@@ -102,9 +91,7 @@ const SetBuilder = ({ armorData, selectedSkills, skills }) => {
                 {uniqueSkills.map(skill => (
                     <li key={skill}>
                         <strong>{skill}:</strong>
-                        <div className="skill-bars inline">
-                            {buildSkillBars(skillLevels[skill], findSkillLimit(skill))}
-                        </div>
+                        <SkillBar level={skillLevels[skill]} limit={findSkillLimit(skill)} />
                     </li>
                 ))}
             </ul>

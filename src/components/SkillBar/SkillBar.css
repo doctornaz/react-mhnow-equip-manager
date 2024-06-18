@@ -1,0 +1,19 @@
+.skill-bars {
+    display: flex;
+    align-items: center;
+}
+
+.skill-bar {
+    width: 20px;
+    height: 10px;
+    margin-right: 2px;
+}
+  
+.skill-bar.empty {
+    background-color: #333;
+}
+
+.skill-bar.full {
+    background-color: #0f0;
+}
+

@@ -13,15 +13,6 @@
   margin-bottom: 15px;
 }
 
-.skill-bars {
-  display: flex;
-  align-items: center;
-}
-
-.skill-bar.empty {
-  background-color: #333;
-}
-
 .best-armor {
   font-weight: bold;
   color: #ff0;
