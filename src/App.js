@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
+import Panel from './components/Panel/Panel'
 import Sidebar from './components/Sidebar/Sidebar';
-import SelectedSkills from './components/SelectedSkills/SelectedSkills'; // Import SelectedSkills component
-
+import SelectedSkills from './components/SelectedSkills/SelectedSkills';
+import SetBuilder from './components/SetBuilder/SetBuilder';
 
 function App() {
     const [skills, setSkills] = useState([]);
@@ -10,11 +11,11 @@ function App() {
     const [armorData, setArmorData] = useState([]);
 
     useEffect(() => {
-        fetch('/data/skills.json')
+        fetch('/data/skills.json') // Load all skills
             .then(response => response.json())
             .then(data => setSkills(data.map(skill => ({ ...skill, selected: false }))))
             .catch(error => console.error('Error fetching skills:', error));
-            
+        
         fetch('/data/armor.json') // Load armor data
             .then(response => response.json())
             .then(data => setArmorData(data))
@@ -31,9 +32,16 @@ function App() {
 
     return (
         <div className="App">
+            <Sidebar skills={skills} onSkillSelect={handleSkillSelect} />
             <div className="content">
-                <Sidebar skills={skills} onSkillSelect={handleSkillSelect} />
-                <SelectedSkills selectedSkills={selectedSkills} armorData={armorData} />
+                <div className="main-content">
+                    <Panel className="">
+                        <SelectedSkills selectedSkills={selectedSkills} armorData={armorData} />
+                    </Panel>
+                    <Panel className="">
+                        <SetBuilder armorData={armorData} selectedSkills={selectedSkills} />
+                    </Panel>
+                </div>
             </div>
         </div>
     );
