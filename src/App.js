@@ -12,7 +12,12 @@ function App() {
     useEffect(() => {
         fetch('/data/skills.json') // Load all skills
             .then(response => response.json())
-            .then(data => setSkills(data.map(skill => ({ ...skill, selected: false }))))
+            .then(data => {
+                // Sort skills by name
+                const sortedSkills = data.sort((a, b) => a.name.localeCompare(b.name));
+                // Set sorted skills to state
+                setSkills(sortedSkills.map(skill => ({ ...skill, selected: false })));
+            })
             .catch(error => console.error('Error fetching skills:', error));
         
         fetch('/data/armor.json') // Load armor data
