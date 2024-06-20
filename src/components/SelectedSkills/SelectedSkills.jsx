@@ -80,7 +80,10 @@ const SelectedSkills = ({ selectedSkills, armorData }) => {
             <h3>Selected Skills:</h3>
             {selectedSkills.map((skill, index) => (
                 <div key={index} className="skill-item">
-                    <strong>{skill.name}</strong>
+                    <strong>{skill.name}:</strong>
+                    <span style={{fontSize: "smaller", fontStyle: "italic"}}>
+                        {skill.description}
+                    </span>
                     {/* Display matching armor for each selected skill */}
                     <ul>
                         {getMatchingArmor(skill.name).map((armor, idx) => (
@@ -92,8 +95,7 @@ const SelectedSkills = ({ selectedSkills, armorData }) => {
                                         : ''
                                 }
                             >
-                                {armor.slot}: {armor.name} - 
-                                {/* <div className="skill-bars inline">{calculateBars(armor.level)}</div> */}
+                                {armor.slot}: {armor.name} 
                                 <SkillBar level={armor.level} />
                             </li>
                         ))}
