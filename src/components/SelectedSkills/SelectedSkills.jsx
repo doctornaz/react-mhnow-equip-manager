@@ -4,6 +4,9 @@ import Panel from '../Panel/Panel';
 import SkillBar from '../SkillBar/SkillBar';
 
 const SelectedSkills = ({ selectedSkills, armorData }) => {
+    // Slot order
+    const slotOrder = ['Head', 'Torso', 'Arms', 'Waist', 'Legs'];
+
     // Function to filter and sort armor data based on selected skills
     const getMatchingArmor = (skillName) => {
         if (!armorData) return []; // Return empty array if armorData is undefined
@@ -29,17 +32,14 @@ const SelectedSkills = ({ selectedSkills, armorData }) => {
             });
         });
 
-        // Sort armor pieces by level (highest to lowest)
-        return matchingArmor.sort((a, b) => b.level - a.level);
-    };
-
-    // Function to calculate bars based on skill level
-    const calculateBars = (level) => {
-        const bars = [];
-        for (let i = 1; i <= level; i++) {
-            bars.push(<div key={i} className="skill-bar full"></div>);
-        }
-        return bars;
+        // Sort armor pieces by slot order and then by level (highest to lowest)
+        return matchingArmor.sort((a, b) => {
+            const slotComparison = slotOrder.indexOf(a.slot) - slotOrder.indexOf(b.slot);
+            if (slotComparison === 0) {
+                return b.level - a.level;
+            }
+            return slotComparison;
+        });
     };
 
     // Function to find the best armor combination for all selected skills
