@@ -20,7 +20,7 @@ function App() {
             })
             .catch(error => console.error('Error fetching skills:', error));
         
-        fetch(`${process.env.PUBLIC_URL}]/data/armor.json`) // Load armor data
+        fetch(`${process.env.PUBLIC_URL}/data/armor.json`) // Load armor data
             .then(response => response.json())
             .then(data => setArmorData(data))
             .catch(error => console.error('Error fetching armor data:', error));
