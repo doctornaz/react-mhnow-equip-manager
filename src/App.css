@@ -18,3 +18,15 @@
 input[type="checkbox"] {
   margin-right: 10px;
 }
+
+.skill-item {
+  margin-bottom: 10px;
+  padding: 5px;
+  border-bottom: 1px solid #555;
+  font-size: 14px;
+  text-align: left;
+}
+
+.skill-item strong {
+  margin-right: 5px;
+}
