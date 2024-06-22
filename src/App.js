@@ -10,7 +10,7 @@ function App() {
     const [armorData, setArmorData] = useState([]);
 
     useEffect(() => {
-        fetch('/data/skills.json') // Load all skills
+        fetch(`${process.env.PUBLIC_URL}/data/skills.json`) // Load all skills
             .then(response => response.json())
             .then(data => {
                 // Sort skills by name
@@ -20,7 +20,7 @@ function App() {
             })
             .catch(error => console.error('Error fetching skills:', error));
         
-        fetch('/data/armor.json') // Load armor data
+        fetch(`${process.env.PUBLIC_URL}]/data/armor.json`) // Load armor data
             .then(response => response.json())
             .then(data => setArmorData(data))
             .catch(error => console.error('Error fetching armor data:', error));
