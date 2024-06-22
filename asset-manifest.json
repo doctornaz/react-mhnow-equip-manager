@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/react-mhnow-equip-manager/static/css/main.27adc3d1.css",
-    "main.js": "/react-mhnow-equip-manager/static/js/main.28e4d898.js",
+    "main.js": "/react-mhnow-equip-manager/static/js/main.f4bf4fa7.js",
     "static/js/453.a4d94f71.chunk.js": "/react-mhnow-equip-manager/static/js/453.a4d94f71.chunk.js",
     "index.html": "/react-mhnow-equip-manager/index.html",
     "main.27adc3d1.css.map": "/react-mhnow-equip-manager/static/css/main.27adc3d1.css.map",
-    "main.28e4d898.js.map": "/react-mhnow-equip-manager/static/js/main.28e4d898.js.map",
+    "main.f4bf4fa7.js.map": "/react-mhnow-equip-manager/static/js/main.f4bf4fa7.js.map",
     "453.a4d94f71.chunk.js.map": "/react-mhnow-equip-manager/static/js/453.a4d94f71.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.27adc3d1.css",
-    "static/js/main.28e4d898.js"
+    "static/js/main.f4bf4fa7.js"
   ]
 }
