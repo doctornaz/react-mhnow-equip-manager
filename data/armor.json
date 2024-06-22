@@ -1,0 +1,1969 @@
+[
+    {
+        "Leather Armor Set": [
+            {
+                "slot": "Head",
+                "name": "Leather Headgear",
+                "skills": [
+                    {
+                        "name": "Critical Eye",
+                        "level": 1
+                    },
+                    {
+                        "name": "Ice Resistance",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Torso",
+                "name": "Leather Mail",
+                "skills": [
+                    {
+                        "name": "Attack Boost",
+                        "level": 1
+                    },
+                    {
+                        "name": "Fire Resistance",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Arms",
+                "name": "Leather Gloves",
+                "skills": [
+                    {
+                        "name": "Defense Boost",
+                        "level": 1
+                    },
+                    {
+                        "name": "Thunder Resistance",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Waist",
+                "name": "Leather Belt",
+                "skills": [
+                    {
+                        "name": "Health Boost",
+                        "level": 1
+                    },
+                    {
+                        "name": "Water Resistance",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Legs",
+                "name": "Leather Trousers",
+                "skills": [
+                    {
+                        "name": "Poison Resistance",
+                        "level": 1
+                    },
+                    {
+                        "name": "Paralysis Resistance",
+                        "level": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Jagras Armor Set": [
+            {
+                "slot": "Head",
+                "name": "Jagras Helm",
+                "skills": [
+                    {
+                        "name": "Firm Foothold",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Torso",
+                "name": "Jagras Mail",
+                "skills": [
+                    {
+                        "name": "Rising Tide",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Arms",
+                "name": "Jagras Vambraces",
+                "skills": [
+                    {
+                        "name": "Firm Foothold",
+                        "level": 1
+                    },
+                    {
+                        "name": "Water Attack",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Waist",
+                "name": "Jagras Coil",
+                "skills": [
+                    {
+                        "name": "Fortify",
+                        "level": 2
+                    },
+                    {
+                        "name": "Rising Tide",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Legs",
+                "name": "Jagras Greaves",
+                "skills": [
+                    {
+                        "name": "Water Attack",
+                        "level": 2
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Kulu Armor Set": [
+            {
+                "slot": "Head",
+                "name": "Kulu Headpiece",
+                "skills": [
+                    {
+                        "name": "Lock On",
+                        "level": 1
+                    },
+                    {
+                        "name": "Critical Eye",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Torso",
+                "name": "Kulu Mail",
+                "skills": [
+                    {
+                        "name": "Guts",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Arms",
+                "name": "Kulu Vambraces",
+                "skills": [
+                    {
+                        "name": "Last Stand",
+                        "level": 1
+                    },
+                    {
+                        "name": "Critical Eye",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Waist",
+                "name": "Kulu Coil",
+                "skills": [
+                    {
+                        "name": "Last Stand",
+                        "level": 1
+                    },
+                    {
+                        "name": "Evade Extender",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Legs",
+                "name": "Kulu Greaves",
+                "skills": [
+                    {
+                        "name": "Critical Eye",
+                        "level": 2
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Pukei Armor Set": [
+            {
+                "slot": "Head",
+                "name": "Pukei Hood",
+                "skills": [
+                    {
+                        "name": "Focus",
+                        "level": 1
+                    },
+                    {
+                        "name": "Health Boost",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Torso",
+                "name": "Pukei Mail",
+                "skills": [
+                    {
+                        "name": "Poison Resistance",
+                        "level": 1
+                    },
+                    {
+                        "name": "Focus",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Arms",
+                "name": "Pukei Vambraces",
+                "skills": [
+                    {
+                        "name": "Poison Attack",
+                        "level": 1
+                    },
+                    {
+                        "name": "Poison Resistance",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Waist",
+                "name": "Pukei Coil",
+                "skills": [
+                    {
+                        "name": "Poison Attack",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Legs",
+                "name": "Pukei Greaves",
+                "skills": [
+                    {
+                        "name": "Health Boost",
+                        "level": 1
+                    },
+                    {
+                        "name": "Poison Resistance",
+                        "level": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Barroth Armor Set": [
+            {
+                "slot": "Head",
+                "name": "Barroth Helm",
+                "skills": [
+                    {
+                        "name": "Defense Boost",
+                        "level": 1
+                    },
+                    {
+                        "name": "Offensive Guard",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Torso",
+                "name": "Barroth Mail",
+                "skills": [
+                    {
+                        "name": "Offensive Guard",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Arms",
+                "name": "Barroth Vambraces",
+                "skills": [
+                    {
+                        "name": "Guard",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Waist",
+                "name": "Barroth Coil",
+                "skills": [
+                    {
+                        "name": "Defense Boost",
+                        "level": 1
+                    },
+                    {
+                        "name": "Guard",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Legs",
+                "name": "Barroth Greaves",
+                "skills": [
+                    {
+                        "name": "Recoil Down",
+                        "level": 1
+                    },
+                    {
+                        "name": "Defense Boost",
+                        "level": 2
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Girros Armor Set": [
+            {
+                "slot": "Head",
+                "name": "Girros Mask",
+                "skills": [
+                    {
+                        "name": "Paralysis Resistance",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Torso",
+                "name": "Girros Mail",
+                "skills": [
+                    {
+                        "name": "Paralysis Resistance",
+                        "level": 1
+                    },
+                    {
+                        "name": "Sneak Attack",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Arms",
+                "name": "Girros Vambraces",
+                "skills": [
+                    {
+                        "name": "Sneak Attack",
+                        "level": 1
+                    },
+                    {
+                        "name": "Earplugs",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Waist",
+                "name": "Girros Coil",
+                "skills": [
+                    {
+                        "name": "Paralysis Attack",
+                        "level": 1
+                    },
+                    {
+                        "name": "Earplugs",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Legs",
+                "name": "Girros Greaves",
+                "skills": [
+                    {
+                        "name": "Paralysis Attack",
+                        "level": 2
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Kadachi Armor Set": [
+            {
+                "slot": "Head",
+                "name": "Kadachi Helm",
+                "skills": [
+                    {
+                        "name": "Reload Speed",
+                        "level": 1
+                    },
+                    {
+                        "name": "Artful Dodger",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Torso",
+                "name": "Kadachi Mail",
+                "skills": [
+                    {
+                        "name": "Evade Extender",
+                        "level": 1
+                    },
+                    {
+                        "name": "Thunder Attack",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Arms",
+                "name": "Kadachi Vambraces",
+                "skills": [
+                    {
+                        "name": "Evade Extender",
+                        "level": 2
+                    },
+                    {
+                        "name": "Artful Dodger",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Waist",
+                "name": "Kadachi Coil",
+                "skills": [
+                    {
+                        "name": "Thunder Attack",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Legs",
+                "name": "Kadachi Greaves",
+                "skills": [
+                    {
+                        "name": "Artful Dodger",
+                        "level": 1
+                    },
+                    {
+                        "name": "Thunder Resistance",
+                        "level": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Paolumu Armor Set": [
+            {
+                "slot": "Head",
+                "name": "Lumu Hat",
+                "skills": [
+                    {
+                        "name": "Concentration",
+                        "level": 1
+                    },
+                    {
+                        "name": "Windproof",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Torso",
+                "name": "Lumu Mail",
+                "skills": [
+                    {
+                        "name": "Recoil Down",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Arms",
+                "name": "Lumu Vambraces",
+                "skills": [
+                    {
+                        "name": "Concentration",
+                        "level": 2
+                    },
+                    {
+                        "name": "Divine Blessing",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Waist",
+                "name": "Lumu Coil",
+                "skills": [
+                    {
+                        "name": "Divine Blessing",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Legs",
+                "name": "Lumu Greaves",
+                "skills": [
+                    {
+                        "name": "Windproof",
+                        "level": 2
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Jyuratodus Armor Set": [
+            {
+                "slot": "Head",
+                "name": "Jyura Helm",
+                "skills": [
+                    {
+                        "name": "Water Resistance",
+                        "level": 1
+                    },
+                    {
+                        "name": "Last Stand",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Torso",
+                "name": "Jyura Mail",
+                "skills": [
+                    {
+                        "name": "Water Attack",
+                        "level": 1
+                    },
+                    {
+                        "name": "Last Stand",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Arms",
+                "name": "Jyura Vambraces",
+                "skills": [
+                    {
+                        "name": "Water Attack",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Waist",
+                "name": "Jyura Coil",
+                "skills": [
+                    {
+                        "name": "Water Resistance",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Legs",
+                "name": "Jyura Greaves",
+                "skills": [
+                    {
+                        "name": "Focus",
+                        "level": 2
+                    },
+                    {
+                        "name": "Last Stand",
+                        "level": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Anjanath Armor Set": [
+            {
+                "slot": "Head",
+                "name": "Anja Helm",
+                "skills": [
+                    {
+                        "name": "Fire Attack",
+                        "level": 2
+                    },
+                    {
+                        "name": "Fire Resistance",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Torso",
+                "name": "Anja Mail",
+                "skills": [
+                    {
+                        "name": "Special Boost",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Arms",
+                "name": "Anja Vambraces",
+                "skills": [
+                    {
+                        "name": "Fire Attack",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Waist",
+                "name": "Anja Coil",
+                "skills": [
+                    {
+                        "name": "Fire Resistance",
+                        "level": 1
+                    },
+                    {
+                        "name": "Special Boost",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Legs",
+                "name": "Anja Greaves",
+                "skills": [
+                    {
+                        "name": "Peak Performance",
+                        "level": 2
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Rathian Armor Set": [
+            {
+                "slot": "Head",
+                "name": "Rathian Helm",
+                "skills": [
+                    {
+                        "name": "Health Boost",
+                        "level": 2
+                    },
+                    {
+                        "name": "Poison Attack",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Torso",
+                "name": "Rathian Mail",
+                "skills": [
+                    {
+                        "name": "Poison Attack",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Arms",
+                "name": "Rathian Vambraces",
+                "skills": [
+                    {
+                        "name": "Lock On",
+                        "level": 1
+                    },
+                    {
+                        "name": "Burst",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Waist",
+                "name": "Rathian Coil",
+                "skills": [
+                    {
+                        "name": "Poison Resistance",
+                        "level": 1
+                    },
+                    {
+                        "name": "Burst",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Legs",
+                "name": "Rathian Greaves",
+                "skills": [
+                    {
+                        "name": "Health Boost",
+                        "level": 2
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Legiana Armor Set": [
+            {
+                "slot": "Head",
+                "name": "Legiana Helm",
+                "skills": [
+                    {
+                        "name": "Divine Blessing",
+                        "level": 1
+                    },
+                    {
+                        "name": "Ice Attack",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Torso",
+                "name": "Legiana Mail",
+                "skills": [
+                    {
+                        "name": "Divine Blessing",
+                        "level": 2
+                    },
+                    {
+                        "name": "Windproof",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Arms",
+                "name": "Legiana Vambraces",
+                "skills": [
+                    {
+                        "name": "Reload Speed",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Waist",
+                "name": "Legiana Coil",
+                "skills": [
+                    {
+                        "name": "Ice Attack",
+                        "level": 2
+                    },
+                    {
+                        "name": "Windproof",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Legs",
+                "name": "Legiana Greaves",
+                "skills": [
+                    {
+                        "name": "Reload Speed",
+                        "level": 1
+                    },
+                    {
+                        "name": "Ice Resistance",
+                        "level": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Diablos Armor Set": [
+            {
+                "slot": "Head",
+                "name": "Diablos Helm",
+                "skills": [
+                    {
+                        "name": "Heroics",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Torso",
+                "name": "Diablos Mail",
+                "skills": [
+                    {
+                        "name": "Slugger",
+                        "level": 1
+                    },
+                    {
+                        "name": "Heroics",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Arms",
+                "name": "Diablos Vambraces",
+                "skills": [
+                    {
+                        "name": "Heroics",
+                        "level": 2
+                    },
+                    {
+                        "name": "Partbreaker",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Waist",
+                "name": "Diablos Coil",
+                "skills": [
+                    {
+                        "name": "Partbreaker",
+                        "level": 1
+                    },
+                    {
+                        "name": "Offensive Guard",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Legs",
+                "name": "Diablos Greaves",
+                "skills": [
+                    {
+                        "name": "Slugger",
+                        "level": 2
+                    },
+                    {
+                        "name": "Partbreaker",
+                        "level": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Rathalos Armor Set": [
+            {
+                "slot": "Head",
+                "name": "Rathalos Helm",
+                "skills": [
+                    {
+                        "name": "Attack Boost",
+                        "level": 2
+                    },
+                    {
+                        "name": "Fire Attack",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Torso",
+                "name": "Rathalos Mail",
+                "skills": [
+                    {
+                        "name": "Weakness Exploit",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Arms",
+                "name": "Rathalos Vambraces",
+                "skills": [
+                    {
+                        "name": "Fire Resistance",
+                        "level": 1
+                    },
+                    {
+                        "name": "Attack Boost",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Waist",
+                "name": "Rathalos Coil",
+                "skills": [
+                    {
+                        "name": "Focus",
+                        "level": 1
+                    },
+                    {
+                        "name": "Fire Attack",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Legs",
+                "name": "Rathalos Greaves",
+                "skills": [
+                    {
+                        "name": "Fire Resistance",
+                        "level": 1
+                    },
+                    {
+                        "name": "Weakness Exploit",
+                        "level": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Black Diablos Armor Set": [
+            {
+                "slot": "Head",
+                "name": "Diablos Nero Helm",
+                "skills": [
+                    {
+                        "name": "Partbreaker",
+                        "level": 2
+                    },
+                    {
+                        "name": "Resentment",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Torso",
+                "name": "Diablos Nero Mail",
+                "skills": [
+                    {
+                        "name": "Resentment",
+                        "level": 2
+                    },
+                    {
+                        "name": "Firm Foothold",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Arms",
+                "name": "Diablos Nero Vambraces",
+                "skills": [
+                    {
+                        "name": "Resentment",
+                        "level": 1
+                    },
+                    {
+                        "name": "Focus",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Waist",
+                "name": "Diablos Nero Coil",
+                "skills": [
+                    {
+                        "name": "Lock On",
+                        "level": 1
+                    },
+                    {
+                        "name": "Heroics",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Legs",
+                "name": "Diablos Nero Greaves",
+                "skills": [
+                    {
+                        "name": "Heroics",
+                        "level": 1
+                    },
+                    {
+                        "name": "Offensive Guard",
+                        "level": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Pink Rathian Armor Set": [
+            {
+                "slot": "Head",
+                "name": "Rath Heart Helm",
+                "skills": [
+                    {
+                        "name": "Special Boost",
+                        "level": 1
+                    },
+                    {
+                        "name": "Windproof",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Torso",
+                "name": "Rath Heart Mail",
+                "skills": [
+                    {
+                        "name": "Dragon Attack",
+                        "level": 1
+                    },
+                    {
+                        "name": "Focus",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Arms",
+                "name": "Rath Heart Braces",
+                "skills": [
+                    {
+                        "name": "Windproof",
+                        "level": 2
+                    },
+                    {
+                        "name": "Critical Eye",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Waist",
+                "name": "Rath Heart Coil",
+                "skills": [
+                    {
+                        "name": "Critical Eye",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Legs",
+                "name": "Rath Heart Greaves",
+                "skills": [
+                    {
+                        "name": "Special Boost",
+                        "level": 2
+                    },
+                    {
+                        "name": "Dragon Attack",
+                        "level": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Radobaan Armor Set": [
+            {
+                "slot": "Head",
+                "name": "Baan Helm",
+                "skills": [
+                    {
+                        "name": "Guard",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Torso",
+                "name": "Baan Mail",
+                "skills": [
+                    {
+                        "name": "Sleep Attack",
+                        "level": 1
+                    },
+                    {
+                        "name": "Defense Boost",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Arms",
+                "name": "Baan Vambraces",
+                "skills": [
+                    {
+                        "name": "Slugger",
+                        "level": 1
+                    },
+                    {
+                        "name": "Sleep Resistance",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Waist",
+                "name": "Baan Coil",
+                "skills": [
+                    {
+                        "name": "Sleep Attack",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Legs",
+                "name": "Baan Greaves",
+                "skills": [
+                    {
+                        "name": "Sleep Resistance",
+                        "level": 1
+                    },
+                    {
+                        "name": "Guard",
+                        "level": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Banbaro Armor Set": [
+            {
+                "slot": "Head",
+                "name": "Banbaro Helm",
+                "skills": [
+                    {
+                        "name": "Tremor Resistance",
+                        "level": 1
+                    },
+                    {
+                        "name": "Recoil Down",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Torso",
+                "name": "Banbaro Mail",
+                "skills": [
+                    {
+                        "name": "Concentration",
+                        "level": 1
+                    },
+                    {
+                        "name": "Partbreaker",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Arms",
+                "name": "Banbaro Vambraces",
+                "skills": [
+                    {
+                        "name": "Offensive Guard",
+                        "level": 2
+                    },
+                    {
+                        "name": "Tremor Resistance",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Waist",
+                "name": "Banbaro Coil",
+                "skills": [
+                    {
+                        "name": "Attack Boost",
+                        "level": 2
+                    },
+                    {
+                        "name": "Firm Foothold",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Legs",
+                "name": "Banbaro Greaves",
+                "skills": [
+                    {
+                        "name": "Divine Blessing",
+                        "level": 1
+                    },
+                    {
+                        "name": "Concentration",
+                        "level": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Barioth Armor Set": [
+            {
+                "slot": "Head",
+                "name": "Barioth Helm",
+                "skills": [
+                    {
+                        "name": "Evade Extender",
+                        "level": 1
+                    },
+                    {
+                        "name": "Skyward Striker",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Torso",
+                "name": "Barioth Mail",
+                "skills": [
+                    {
+                        "name": "Ice Resistance",
+                        "level": 1
+                    },
+                    {
+                        "name": "Ice Attack",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Arms",
+                "name": "Barioth Vambraces",
+                "skills": [
+                    {
+                        "name": "Ice Attack",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Waist",
+                "name": "Barioth Coil",
+                "skills": [
+                    {
+                        "name": "Skyward Striker",
+                        "level": 1
+                    },
+                    {
+                        "name": "Ice Resistance",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Legs",
+                "name": "Barioth Greaves",
+                "skills": [
+                    {
+                        "name": "Sneak Attack",
+                        "level": 1
+                    },
+                    {
+                        "name": "Evade Extender",
+                        "level": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Zinogre Armor Set": [
+            {
+                "slot": "Head",
+                "name": "Zinogre Helm",
+                "skills": [
+                    {
+                        "name": "Evasive Concentration",
+                        "level": 1
+                    },
+                    {
+                        "name": "Burst",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Torso",
+                "name": "Zinogre Mail",
+                "skills": [
+                    {
+                        "name": "Evasive Concentration",
+                        "level": 2
+                    },
+                    {
+                        "name": "Thunder Resistance",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Arms",
+                "name": "Zinogre Vambraces",
+                "skills": [
+                    {
+                        "name": "Thunder Attack",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Waist",
+                "name": "Zinogre Coil",
+                "skills": [
+                    {
+                        "name": "Artful Dodger",
+                        "level": 1
+                    },
+                    {
+                        "name": "Reload Speed",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Legs",
+                "name": "Zinogre Greaves",
+                "skills": [
+                    {
+                        "name": "Burst",
+                        "level": 1
+                    },
+                    {
+                        "name": "Thunder Attack",
+                        "level": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Azure Rathalos Armor Set": [
+            {
+                "slot": "Head",
+                "name": "Rath Soul Helm",
+                "skills": [
+                    {
+                        "name": "Focus",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Torso",
+                "name": "Rath Soul Mail",
+                "skills": [
+                    {
+                        "name": "Earplugs",
+                        "level": 2
+                    },
+                    {
+                        "name": "Fire Attack",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Arms",
+                "name": "Rath Soul Braces",
+                "skills": [
+                    {
+                        "name": "Critical Boost",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Waist",
+                "name": "Rath Soul Coil",
+                "skills": [
+                    {
+                        "name": "Special Boost",
+                        "level": 1
+                    },
+                    {
+                        "name": "Critical Boost",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Legs",
+                "name": "Rath Soul Greaves",
+                "skills": [
+                    {
+                        "name": "Reload Speed",
+                        "level": 2
+                    },
+                    {
+                        "name": "Fire Attack",
+                        "level": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Jack-o’-Head Armor Set": [
+            {
+                "slot": "Head",
+                "name": "Jack-o'-Head",
+                "skills": [
+                    {
+                        "name": "Solidarity (Pumpkin Hunt)",
+                        "level": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "New Year Specs 2024": [
+            {
+                "slot": "Head",
+                "name": "New Year Specs 2024",
+                "skills": [
+                    {
+                        "name": "Happy New Year (2024)",
+                        "level": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Dragon Dance Mask": [
+            {
+                "slot": "Head",
+                "name": "Dragon Dance Mask",
+                "skills": [
+                    {
+                        "name": "Critical Boost",
+                        "level": 2
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Tzitzi-Ya-Ku Armor Set": [
+            {
+                "slot": "Head",
+                "name": "Tzitzi Headgear",
+                "skills": [
+                    {
+                        "name": "Thunder Attack",
+                        "level": 2
+                    },
+                    {
+                        "name": "Evade Extender",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Torso",
+                "name": "Tzitzi Mail",
+                "skills": [
+                    {
+                        "name": "Status Sneak Attack",
+                        "level": 1
+                    },
+                    {
+                        "name": "Artful Dodger",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Arms",
+                "name": "Tzitzi Vambraces",
+                "skills": [
+                    {
+                        "name": "Status Sneak Attack",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Waist",
+                "name": "Tzitzi Coil",
+                "skills": [
+                    {
+                        "name": "Evade Extender",
+                        "level": 1
+                    },
+                    {
+                        "name": "Status Sneak Attack",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Legs",
+                "name": "Tzitzi Greaves",
+                "skills": [
+                    {
+                        "name": "Fortify",
+                        "level": 2
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Odogaron Armor Set": [
+            {
+                "slot": "Head",
+                "name": "Odogaron Helm",
+                "skills": [
+                    {
+                        "name": "Quick Work",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Torso",
+                "name": "Odogaron Mail",
+                "skills": [
+                    {
+                        "name": "Critical Eye",
+                        "level": 2
+                    },
+                    {
+                        "name": "Bleeding Resistance",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Arms",
+                "name": "Odogaron Vambraces",
+                "skills": [
+                    {
+                        "name": "Quick Work",
+                        "level": 1
+                    },
+                    {
+                        "name": "Bleeding Resistance",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Waist",
+                "name": "Odogaron Coil",
+                "skills": [
+                    {
+                        "name": "Critical Eye",
+                        "level": 1
+                    },
+                    {
+                        "name": "Evasive Concentration",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Legs",
+                "name": "Odogaron Greaves",
+                "skills": [
+                    {
+                        "name": "Evasive Concentration",
+                        "level": 2
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Coral Pukei-Pukei Set": [
+            {
+                "slot": "Head",
+                "name": "Pukei Lagoon Hat",
+                "skills": [
+                    {
+                        "name": "Weakness Exploit",
+                        "level": 2
+                    },
+                    {
+                        "name": "Lock On",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Torso",
+                "name": "Pukei Lagoon Mail",
+                "skills": [
+                    {
+                        "name": "Power Prolonger",
+                        "level": 2
+                    },
+                    {
+                        "name": "Rising Tide",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Arms",
+                "name": "Pukei Lagoon Braces",
+                "skills": [
+                    {
+                        "name": "Rising Tide",
+                        "level": 1
+                    },
+                    {
+                        "name": "Skyward Striker",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Waist",
+                "name": "Pukei Lagoon Coil",
+                "skills": [
+                    {
+                        "name": "Reload Speed",
+                        "level": 1
+                    },
+                    {
+                        "name": "Recoil Down",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Legs",
+                "name": "Pukei Lagoon Greaves",
+                "skills": [
+                    {
+                        "name": "Power Prolonger",
+                        "level": 2
+                    },
+                    {
+                        "name": "Weakness Exploit",
+                        "level": 2
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Deviljho Set": [
+            {
+                "slot": "Head",
+                "name": "Vangis Helm",
+                "skills": [
+                    {
+                        "name": "Slugger",
+                        "level": 2
+                    },
+                    {
+                        "name": "Dragon Attack",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Torso",
+                "name": "Vangis Mail",
+                "skills": [
+                    {
+                        "name": "Latent Power",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Arms",
+                "name": "Vangis Vambraces",
+                "skills": [
+                    {
+                        "name": "Peak Performance",
+                        "level": 2
+                    },
+                    {
+                        "name": "Dragon Attack",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Waist",
+                "name": "Vangis Coil",
+                "skills": [
+                    {
+                        "name": "Dragon Attack",
+                        "level": 2
+                    },
+                    {
+                        "name": "Tremor Resistance",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Legs",
+                "name": "Vangis Greaves",
+                "skills": [
+                    {
+                        "name": "Guts",
+                        "level": 2
+                    },
+                    {
+                        "name": "Latent Power",
+                        "level": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Basarios Set": [
+            {
+                "slot": "Head",
+                "name": "Basarios Helm",
+                "skills": [
+                    {
+                        "name": "Sleep Resistance",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Torso",
+                "name": "Basarios Mail",
+                "skills": [
+                    {
+                        "name": "Artillery",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Arms",
+                "name": "Basarios Vambraces",
+                "skills": [
+                    {
+                        "name": "Recoil Down",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Waist",
+                "name": "Basarios Coil",
+                "skills": [
+                    {
+                        "name": "Fire Attack",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Legs",
+                "name": "Basarios Greaves",
+                "skills": [
+                    {
+                        "name": "Artillery",
+                        "level": 1
+                    },
+                    {
+                        "name": "Guard",
+                        "level": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Khezu Set": [
+            {
+                "slot": "Head",
+                "name": "Khezu Helm",
+                "skills": [
+                    {
+                        "name": "Paralysis Attack",
+                        "level": 1
+                    },
+                    {
+                        "name": "Special Insurance",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Torso",
+                "name": "Khezu Mail",
+                "skills": [
+                    {
+                        "name": "Thunder Attack",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Arms",
+                "name": "Khezu Vambraces",
+                "skills": [
+                    {
+                        "name": "Special Insurance",
+                        "level": 2
+                    },
+                    {
+                        "name": "Fortify",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Waist",
+                "name": "Khezu Coil",
+                "skills": [
+                    {
+                        "name": "Paralysis Resistance",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Legs",
+                "name": "Khezu Greaves",
+                "skills": [
+                    {
+                        "name": "Focus",
+                        "level": 1
+                    },
+                    {
+                        "name": "Slugger",
+                        "level": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Kushala Daora Set": [
+            {
+                "slot": "Head",
+                "name": "Kushala Glare",
+                "skills": [
+                    {
+                        "name": "Kushala Frostwind",
+                        "level": 1
+                    },
+                    {
+                        "name": "Reload Speed",
+                        "level": 1
+                    },
+                    {
+                        "name": "Earplugs",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Torso",
+                "name": "Kushala Cista",
+                "skills": [
+                    {
+                        "name": "Kushala Frostwind",
+                        "level": 1
+                    },
+                    {
+                        "name": "Partbreaker",
+                        "level": 1
+                    },
+                    {
+                        "name": "Health Boost",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Arms",
+                "name": "Kushala Grip",
+                "skills": [
+                    {
+                        "name": "Kushala Frostwind",
+                        "level": 1
+                    },
+                    {
+                        "name": "Focus",
+                        "level": 1
+                    },
+                    {
+                        "name": "Evade Extender",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Waist",
+                "name": "Kushala Cocoon",
+                "skills": [
+                    {
+                        "name": "Kushala Frostwind",
+                        "level": 1
+                    },
+                    {
+                        "name": "Weakness Exploit",
+                        "level": 1
+                    },
+                    {
+                        "name": "Windproof",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Legs",
+                "name": "Kushala Crus",
+                "skills": [
+                    {
+                        "name": "Kushala Frostwind",
+                        "level": 1
+                    },
+                    {
+                        "name": "Skyward Striker",
+                        "level": 1
+                    },
+                    {
+                        "name": "Artful Dodger",
+                        "level": 1
+                    }
+                ]
+            }
+        ]
+    }
+
+]
