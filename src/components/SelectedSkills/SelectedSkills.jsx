@@ -3,6 +3,13 @@ import './SelectedSkills.css';
 import Panel from '../Panel/Panel';
 import SkillBar from '../SkillBar/SkillBar';
 
+// Import slot-specific icon components
+import HeadArmorSlotIcon from '../icons/hunter/Head/HeadArmorSlotIcon';
+import TorsoArmorSlotIcon from '../icons/hunter/Torso/TorsoArmorSlotIcon';
+import ArmsArmorSlotIcon from '../icons/hunter/Arms/ArmsArmorSlotIcon';
+import WaistArmorSlotIcon from '../icons/hunter/Waist/WaistArmorSlotIcon';
+import LegsArmorSlotIcon from '../icons/hunter/Legs/LegsArmorSlotIcon';
+
 const SelectedSkills = ({ selectedSkills, armorData }) => {
     // Slot order
     const slotOrder = ['Head', 'Torso', 'Arms', 'Waist', 'Legs'];
@@ -74,14 +81,31 @@ const SelectedSkills = ({ selectedSkills, armorData }) => {
     };
 
     const bestArmor = findBestArmor();
+    // Function to render slot-specific icon
+    const renderSlotIcon = (slot) => {
+        switch (slot) {
+            case 'Head':
+                return <HeadArmorSlotIcon rank={10} size={16} />;
+            case 'Torso':
+                return <TorsoArmorSlotIcon rank={10} size={16} />;
+            case 'Arms':
+                return <ArmsArmorSlotIcon rank={10} size={16} />;
+            case 'Waist':
+                return <WaistArmorSlotIcon rank={10} size={16} />;
+            case 'Legs':
+                return <LegsArmorSlotIcon rank={10} size={16} />;
+            default:
+                return null;
+        }
+    };
 
     return (
-        <Panel>
+        <Panel className="">
             <h3>Selected Skills:</h3>
             {selectedSkills.map((skill, index) => (
                 <div key={index} className="skill-item">
                     <strong>{skill.name}:</strong>
-                    <span style={{fontSize: "smaller", fontStyle: "italic"}}>
+                    <span style={{ fontSize: "smaller", fontStyle: "italic" }}>
                         {skill.description}
                     </span>
                     {/* Display matching armor for each selected skill */}
@@ -95,7 +119,7 @@ const SelectedSkills = ({ selectedSkills, armorData }) => {
                                         : ''
                                 }
                             >
-                                {armor.slot}: {armor.name} 
+                                {renderSlotIcon(armor.slot)} {armor.name} 
                                 <SkillBar level={armor.level} />
                             </li>
                         ))}

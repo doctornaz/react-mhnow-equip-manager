@@ -1,6 +1,7 @@
 .skill-bars {
-    display: flex;
-    align-items: center;
+    display: inline-flex;
+    vertical-align: middle;
+    margin: 0 5px;
 }
 
 .skill-bar {

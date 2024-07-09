@@ -1,7 +1,7 @@
 import * as React from "react";
 import rankColors from "../colors/colors2";
 
-const SvgHelmRank01 = ({ rank, size }) => {
+const HeadArmorSlotIcon = ({ rank, size }) => {
   
   const col = rankColors[rank] || rankColors[1];
   
@@ -42,4 +42,4 @@ const SvgHelmRank01 = ({ rank, size }) => {
   </svg>
 };
 
-export default SvgHelmRank01;
+export default HeadArmorSlotIcon;

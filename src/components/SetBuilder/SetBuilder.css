@@ -1,0 +1,23 @@
+.set-builder-panel {
+    display: flex;
+    justify-content: space-between;
+    /* border-bottom: 1px solid #555; */
+}
+
+.set-builder-panel ul {
+    font-size: 14px;
+}
+
+.armor-set-container, .skills-container {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.armor-set-container ul, .skills-container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.armor-set-container li, .skills-container li {
+    margin: 5px 0;
+}
