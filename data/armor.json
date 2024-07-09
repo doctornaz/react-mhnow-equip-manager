@@ -1964,6 +1964,64 @@
                 ]
             }
         ]
+    },
+    {
+        "Alloy Set": [
+            {
+                "slot": "Head",
+                "name": "Alloy Helm",
+                "skills": [
+                    {
+                        "name": "Earplugs",
+                        "level": 3
+                    }
+                ]
+            },
+            {
+                "slot": "Torso",
+                "name": "Alloy Mail",
+                "skills": [
+                    {
+                        "name": "Tremor Resistance",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Arms",
+                "name": "Alloy Vambraces",
+                "skills": [
+                    {
+                        "name": "Health Boost",
+                        "level": 3
+                    }
+                ]
+            },
+            {
+                "slot": "Waist",
+                "name": "Alloy Coil",
+                "skills": [
+                    {
+                        "name": "Defense Boost",
+                        "level": 3
+                    }
+                ]
+            },
+            {
+                "slot": "Legs",
+                "name": "Alloy Greaves",
+                "skills": [
+                    {
+                        "name": "Lock On",
+                        "level": 1
+                    },
+                    {
+                        "name": "Windproof",
+                        "level": 1
+                    }
+                ]
+            }
+        ]
     }
 
 ]
