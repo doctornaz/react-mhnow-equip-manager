@@ -5,7 +5,6 @@ import SkillBar from '../SkillBar/SkillBar';
 
 import renderSlotIcon from '../utils/armor-icons';
 
-
 const SelectedSkills = ({ selectedSkills, armorData }) => {
     // Slot order
     const slotOrder = ['Head', 'Torso', 'Arms', 'Waist', 'Legs'];
