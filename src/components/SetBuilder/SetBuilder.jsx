@@ -98,8 +98,10 @@ const SetBuilder = ({ armorData, selectedSkills, skills }) => {
     const skillLevels = calculateSkills(armorSet, armorData);
 
     // Get all unique skills from the armor set
-    const uniqueSkills = [...new Set(Object.keys(skillLevels).concat(selectedSkills.map(skill => skill.name)))];
-
+    const uniqueSkills = [...new Set(Object.keys(skillLevels)
+        .concat(selectedSkills.filter(skill => skillLevels[skill.name] !== undefined)
+        .map(skill => skill.name)))];
+        
     return (
         <Panel className="set-builder-panel">
             <div className="armor-set-container">
