@@ -45,39 +45,6 @@ const SelectedSkills = ({ selectedSkills, armorData }) => {
         });
     };
 
-    // Function to find the best armor combination for all selected skills
-    const findBestArmor = () => {
-        const skillLevels = {}; // Object to store total skill levels
-        selectedSkills.forEach((skill) => {
-            skillLevels[skill.name] = 0; // Initialize skill levels
-        });
-
-        // Calculate total skill levels from selected skills
-        selectedSkills.forEach((skill) => {
-            getMatchingArmor(skill.name).forEach((armor) => {
-                skillLevels[skill.name] += armor.level;
-            });
-        });
-
-        // Find the maximum total skill level among selected skills
-        let maxTotal = 0;
-        Object.values(skillLevels).forEach((level) => {
-            if (level > maxTotal) {
-                maxTotal = level;
-            }
-        });
-
-        // Filter armor pieces that contribute to the maximum total skill level
-        const bestArmor = {};
-        selectedSkills.forEach((skill) => {
-            bestArmor[skill.name] = getMatchingArmor(skill.name).filter((armor) => armor.level === maxTotal);
-        });
-
-        return bestArmor;
-    };
-
-    const bestArmor = findBestArmor();
-
     return (
         <Panel className="">
             <h3>Selected Skills:</h3>
@@ -92,11 +59,7 @@ const SelectedSkills = ({ selectedSkills, armorData }) => {
                         {getMatchingArmor(skill.name).map((armor, idx) => (
                             <li
                                 key={idx}
-                                className={
-                                    bestArmor[skill.name]?.find((a) => a.name === armor.name)
-                                        ? 'best-armor'
-                                        : ''
-                                }
+                                className={''}
                             >
                                 {renderSlotIcon(armor.slot)} {armor.name} 
                                 <SkillBar level={armor.level} />
