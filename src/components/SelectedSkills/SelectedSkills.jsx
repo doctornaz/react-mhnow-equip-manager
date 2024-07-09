@@ -56,10 +56,7 @@ const SelectedSkills = ({ selectedSkills, armorData }) => {
                     {/* Display matching armor for each selected skill */}
                     <ul>
                         {getMatchingArmor(skill.name).map((armor, idx) => (
-                            <li
-                                key={idx}
-                                className={''}
-                            >
+                            <li key={idx} className={''}>
                                 {renderSlotIcon(armor.slot)} {armor.name} 
                                 <SkillBar level={armor.level} />
                             </li>
