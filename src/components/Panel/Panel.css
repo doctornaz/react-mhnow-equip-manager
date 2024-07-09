@@ -3,19 +3,35 @@
   border: 1px solid #ccc;
   border-radius: 5px;
   margin: 10px;
-  /* box-sizing: border-box; */
   background-color: #121418;
-  flex-grow: 1; /* Ensure it takes remaining space */
-  flex-basis: calc(50% - 20px); /* 50% width minus the gap */
-  max-width: calc(50% - 20px); /* To ensure equal width on larger screens */
+  flex-grow: 1;
+  flex-basis: calc(50% - 20px);
+  max-width: calc(50% - 20px);
+  max-height: 500px; /* Set a maximum height for the panel */
+  overflow-y: auto; /* Enable vertical scrolling */
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color: #888 #333; /* Firefox */
+}
+
+.panel::-webkit-scrollbar {
+  width: 10px; /* Width of the scrollbar */
+}
+
+.panel::-webkit-scrollbar-track {
+  background: #333; /* Background of the track */
+}
+
+.panel::-webkit-scrollbar-thumb {
+  background-color: #888; /* Color of the scroll thumb */
+  border-radius: 10px; /* Roundness of the scroll thumb */
+  border: 2px solid #333; /* Border around the scroll thumb */
 }
 
 /* Flex items for each panel */
 .main-content > .panel {
-  flex: 1 1 calc(50% - 20px); 
-  /* box-sizing: border-box; */
+  flex: 1 1 calc(50% - 20px);
 }
-  
+
 /* Media query for smaller screens */
 @media (max-width: 768px) {
   .main-content > .panel {
@@ -23,6 +39,7 @@
   }
 
   .panel {
+    
     flex-basis: 100%; /* Full width on smaller screens */
     max-width: 100%;
   }
