@@ -1,7 +1,7 @@
 import * as React from "react";
 import rankColors from "../colors/colors1";
 
-const SvgLegsRank01 = ({ rank, size }) => {
+const LegsArmorSlotIcon = ({ rank, size }) => {
   
   const col = rankColors[rank] || rankColors[1];
 
@@ -42,4 +42,4 @@ const SvgLegsRank01 = ({ rank, size }) => {
   </svg>
 };
 
-export default SvgLegsRank01;
+export default LegsArmorSlotIcon;
