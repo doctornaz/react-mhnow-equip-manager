@@ -1,6 +1,7 @@
 .set-builder-panel {
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
     /* border-bottom: 1px solid #555; */
 }
 
@@ -20,4 +21,11 @@
 
 .armor-set-container li, .skills-container li {
     margin: 5px 0;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+    border-bottom: 1px solid #555;
 }
