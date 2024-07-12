@@ -19,7 +19,6 @@ const SetBuilder = ({ armorData, selectedSkills, skills }) => {
                 <div className="armor-set-container">
                     <h3>Armor Set</h3>
                     <ul>
-                        {console.log(armorSet)}
                         {Object.keys(armorSet).map(slot => (
                             <li key={slot.name}>
                                 {renderSlotIcon(slot)} {armorSet[slot]}
