@@ -13,3 +13,8 @@
   font-weight: bold;
   color: #ff0;
 }
+
+.skill-description {
+  font-size: smaller;
+  font-style: italic;
+}
