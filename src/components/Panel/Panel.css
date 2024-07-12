@@ -2,14 +2,12 @@
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  margin: 10px;
+  /* margin: 10px; */
   background-color: #121418;
   flex-grow: 1;
   flex-basis: calc(50% - 20px);
-  max-width: calc(50% - 20px);
-  max-height: 500px; /* Set a maximum height for the panel */
-  overflow-y: auto; /* Enable vertical scrolling */
-  scrollbar-width: thin; /* Firefox */
+  /* max-width: calc(50% - 20px); */
+  overflow-y: scroll; /* Enable vertical scrolling */
   scrollbar-color: #888 #333; /* Firefox */
 }
 
