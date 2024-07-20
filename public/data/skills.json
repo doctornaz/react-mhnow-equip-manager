@@ -358,5 +358,23 @@
         "description": "If using close-range weapons, it displays a lock-on button while hunting, allowing a specific monster body part to be targeted.",
         "type": "utility",
         "limit": 1
+    },
+    {
+        "name": "Rude Awakener",
+        "description": "Increases the damage of the first attack dealt to sleeping monsters.",
+        "type": "utility",
+        "limit": 3
+    },
+    {
+        "name": "Bubbly Dance",
+        "description": "Reduces the effects of bubbleblight.",
+        "type": "utility",
+        "limit": 3
+    },
+    {
+        "name": "Resuscitate",
+        "description": "Increases damage when you are suffering from a status ailment.",
+        "type": "utility",
+        "limit": 5
     }
 ]
