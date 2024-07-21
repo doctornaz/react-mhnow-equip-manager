@@ -4,7 +4,7 @@ import Panel from '../Panel/Panel';
 import SkillBar from '../SkillBar/SkillBar';
 
 import renderSlotIcon from '../utils/armor-icons';
-import { getArmorForSkill } from './skills';
+import { getArmorForSkill } from '../utils/skills';
 
 const SelectedSkills = ({ selectedSkills, armorData }) => {
     return (
