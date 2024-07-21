@@ -2022,6 +2022,130 @@
                 ]
             }
         ]
+    },
+    {
+        "Nightshade Paolumu Set": [
+            {
+                "slot": "Head",
+                "name": "Lumu Phantasm Hood",
+                "skills": [
+                    {
+                        "name": "Rude Awakener",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Torso",
+                "name": "Lumu Phantasm Mail",
+                "skills": [
+                    {
+                        "name": "Focus",
+                        "level": 2
+                    },
+                    {
+                        "name": "Sleep Resistance",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Arms",
+                "name": "Lumu Phantasm Arms",
+                "skills": [
+                    {
+                        "name": "Sleep Attack",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Waist",
+                "name": "Lumu Phantasm Coil",
+                "skills": [
+                    {
+                        "name": "Sneak Attack",
+                        "level": 2
+                    },
+                    {
+                        "name": "Evade Extender",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Legs",
+                "name": "Lumu Phantasm Greaves",
+                "skills": [
+                    {
+                        "name": "Rude Awakener",
+                        "level": 1
+                    },
+                    {
+                        "name": "Status Sneak Attack",
+                        "level": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Mizutsune Set": [
+            {
+                "slot": "Head",
+                "name": "Mizutsune Helm",
+                "skills": [
+                    {
+                        "name": "Water Attack",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Torso",
+                "name": "Mizutsune Mail",
+                "skills": [
+                    {
+                        "name": "Bubbly Dance",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Arms",
+                "name": "Mizutsune Braces",
+                "skills": [
+                    {
+                        "name": "Bubbly Dance",
+                        "level": 1
+                    },
+                    {
+                        "name": "Resuscitate",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Waist",
+                "name": "Mizutsune Coil",
+                "skills": [
+                    {
+                        "name": "Evasive Concentration",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Legs",
+                "name": "Mizutsune Greaves",
+                "skills": [
+                    {
+                        "name": "Resuscitate",
+                        "level": 2
+                    }
+                ]
+            }
+        ]
     }
 
 ]
