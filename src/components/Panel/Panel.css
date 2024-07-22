@@ -6,23 +6,9 @@
   background-color: #121418;
   flex-grow: 1;
   flex-basis: calc(50% - 20px);
-  /* max-width: calc(50% - 20px); */
-  overflow-y: scroll; /* Enable vertical scrolling */
-  scrollbar-color: #888 #333; /* Firefox */
-}
-
-.panel::-webkit-scrollbar {
-  width: 10px; /* Width of the scrollbar */
-}
-
-.panel::-webkit-scrollbar-track {
-  background: #333; /* Background of the track */
-}
-
-.panel::-webkit-scrollbar-thumb {
-  background-color: #888; /* Color of the scroll thumb */
-  border-radius: 10px; /* Roundness of the scroll thumb */
-  border: 2px solid #333; /* Border around the scroll thumb */
+  max-width: calc(50% - 20px); /* To ensure equal width on larger screens */
+  max-height: 100%;
+  overflow-y: auto;
 }
 
 /* Flex items for each panel */
@@ -37,8 +23,8 @@
   }
 
   .panel {
-    
     flex-basis: 100%; /* Full width on smaller screens */
     max-width: 100%;
   }
 }
+
