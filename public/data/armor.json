@@ -2146,6 +2146,294 @@
                 ]
             }
         ]
+    },
+    {
+        "Teostra Set": [
+            {
+                "slot": "Head",
+                "name": "Kaiser Crown",
+                "skills": [
+                    {
+                        "name": "Teostra Blastpowder",
+                        "level": 1
+                    },
+                    {
+                        "name": "Latent Power",
+                        "level": 1
+                    },
+                    {
+                        "name": "Guts",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Torso",
+                "name": "Kaiser Mail",
+                "skills": [
+                    {
+                        "name": "Teostra Blastpowder",
+                        "level": 1
+                    },
+                    {
+                        "name": "Critical Eye",
+                        "level": 1
+                    },
+                    {
+                        "name": "Artful Dodger",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Arms",
+                "name": "Kaiser Vambraces",
+                "skills": [
+                    {
+                        "name": "Teostra Blastpowder",
+                        "level": 1
+                    },
+                    {
+                        "name": "Artillery",
+                        "level": 1
+                    },
+                    {
+                        "name": "Guard",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Waist",
+                "name": "Kaiser Coil",
+                "skills": [
+                    {
+                        "name": "Teostra Blastpowder",
+                        "level": 1
+                    },
+                    {
+                        "name": "Power Prolonger",
+                        "level": 1
+                    },
+                    {
+                        "name": "Burst",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Legs",
+                "name": "Kaiser Greaves",
+                "skills": [
+                    {
+                        "name": "Teostra Blastpowder",
+                        "level": 1
+                    },
+                    {
+                        "name": "Critical Boost",
+                        "level": 1
+                    },
+                    {
+                        "name": "Evade Extender",
+                        "level": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Aknosom Set": [
+            {
+                "slot": "Head",
+                "name": "Aknosom Helm",
+                "skills": [
+                    {
+                        "name": "Defensive Loading",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Torso",
+                "name": "Aknosom Mail",
+                "skills": [
+                    {
+                        "name": "Defensive Loading",
+                        "level": 1
+                    },
+                    {
+                        "name": "Guard",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Arms",
+                "name": "Aknosom Vambraces",
+                "skills": [
+                    {
+                        "name": "Quick Work",
+                        "level": 1
+                    },
+                    {
+                        "name": "Power Prolonger",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Waist",
+                "name": "Aknosom Coil",
+                "skills": [
+                    {
+                        "name": "Critical Eye",
+                        "level": 1
+                    },
+                    {
+                        "name": "Peak Performance",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Legs",
+                "name": "Aknosom Greaves",
+                "skills": [
+                    {
+                        "name": "Fire Attack",
+                        "level": 2
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Magnamalo Set": [
+            {
+                "slot": "Head",
+                "name": "Sinister Helm",
+                "skills": [
+                    {
+                        "name": "Hellfire Cloak",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Torso",
+                "name": "Sinister Garb",
+                "skills": [
+                    {
+                        "name": "Reload Speed",
+                        "level": 2
+                    },
+                    {
+                        "name": "Blast Resistance",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Arms",
+                "name": "Sinister Gauntlets",
+                "skills": [
+                    {
+                        "name": "Blast Attack",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Waist",
+                "name": "Sinister Tassets",
+                "skills": [
+                    {
+                        "name": "Blast Resistance",
+                        "level": 1
+                    },
+                    {
+                        "name": "Hellfire Cloak",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Legs",
+                "name": "Sinister Greaves",
+                "skills": [
+                    {
+                        "name": "Blast Attack",
+                        "level": 1
+                    },
+                    {
+                        "name": "Sneak Attack",
+                        "level": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Rajang Set": [
+            {
+                "slot": "Head",
+                "name": "Golden Headdress",
+                "skills": [
+                    {
+                        "name": "Thunder Resistance",
+                        "level": 3
+                    }
+                ]
+            },
+            {
+                "slot": "Torso",
+                "name": "Golden Haori",
+                "skills": [
+                    {
+                        "name": "Fighting Spirit",
+                        "level": 1
+                    },
+                    {
+                        "name": "Concentration",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Arms",
+                "name": "Golden Kote",
+                "skills": [
+                    {
+                        "name": "Fighting Spirit",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Waist",
+                "name": "Golden Obi",
+                "skills": [
+                    {
+                        "name": "Focus",
+                        "level": 3
+                    }
+                ]
+            },
+            {
+                "slot": "Legs",
+                "name": "Golden Hakama",
+                "skills": [
+                    {
+                        "name": "Resentment",
+                        "level": 2
+                    },
+                    {
+                        "name": "Tremor Resistance",
+                        "level": 1
+                    }
+                ]
+            }
+        ]
     }
 
 ]
