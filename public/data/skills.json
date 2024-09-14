@@ -376,5 +376,35 @@
         "description": "Increases damage when you are suffering from a status ailment.",
         "type": "utility",
         "limit": 5
+    },
+    {
+        "name": "Teostra Blastpowder",
+        "description": "Makes it easier to rid yourself of blastblight and easier to inflict blast buildup on monsters.",
+        "type": "utility",
+        "limit": 3
+    },
+    {
+        "name": "Defensive Loading",
+        "description": "Reloads phial/ammo when blocking with charge blade/gunlance/heavy bowgun.",
+        "type": "utility",
+        "limit": 3
+    },
+    {
+        "name": "Hellfire Cloak",
+        "description": "Inflict yourself with hellfireblight/gain decreased defense and increased attack.",
+        "type": "utility",
+        "limit": 3
+    },
+    {
+        "name": "Blast Resistance",
+        "description": "Grants a chance to prevent blast status/prevents blastblight.",
+        "type": "defensive",
+        "limit": 5
+    },
+    {
+        "name": "Fighting Spirit",
+        "description": "Increases damage dealt when the Special Gauge becomes full.",
+        "type": "offensive",
+        "limit": 5
     }
 ]
