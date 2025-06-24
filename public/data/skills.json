@@ -168,7 +168,7 @@
         "limit": 5
     },
     {
-        "name": "Solidarity (Pumpkin Hunt)",
+        "name": "Solidarity (Halloween)",
         "description": "Increases attack power the more of your fellow hunters have this skill activated.",
         "type": "offensive",
         "limit": 1
@@ -406,5 +406,119 @@
         "description": "Increases damage dealt when the Special Gauge becomes full.",
         "type": "offensive",
         "limit": 5
+    },
+    {
+        "name": "Final Shot",
+        "description": "Increases the damage of the last remaining ammo/phial when using a gunlance, charge blade, light bowgun or heavy bowgun.",
+        "type": "offensive",
+        "limit": 5
+    },
+    {
+        "name": "Chameleos Venomist",
+        "description": "Halves poison/venom statuus duration, and makes it easier to build up poison status on a monster.",
+        "type": "utility",
+        "limit": 3
+    },
+    {
+        "name": "Poison Exploit",
+        "description": "Damage against monsters inflicted with poison increases.",
+        "type": "offensive",
+        "limit": 5
+    },
+    {
+        "name": "Valor",
+        "description": "Increases attack power and fills Special Gauge when a monster roars (up to 1 time per hunt).",
+        "type": "utility",
+        "limit": 5
+    },
+    {
+        "name": "Shared Shield",
+        "description": "Increases defense during a group hunt.",
+        "type": "defensive",
+        "limit": 5
+    },
+    {
+        "name": "Buildup Boost",
+        "description": "Increases damage if poison/paralysis/sleep/blast buildup occurs when hitting a monster.",
+        "type": "offensive",
+        "limit": 5
+    },
+    {
+        "name": "Evading Reload",
+        "description": "Grants a chance of phials/ammo being refilled when evading while equipped with a gunlance, charge blade, light bowgun or heavy bowgun.",
+        "type": "utility",
+        "limit": 5
+    },
+    {
+        "name": "Paralysis Exploit",
+        "description": "Increases damage to paralyzed monsters.",
+        "type": "utility",
+        "limit": 5
+    },
+    {
+        "name": "Shared Sword",
+        "description": "Increases attack power during a group hunt.",
+        "type": "offensive",
+        "limit": 5
+    },
+    {
+        "name": "Nergigante Avidity",
+        "description": "Damage increased, but Special Gauge will no longer fill when attacking.",
+        "type": "offensive",
+        "limit": 3
+    },
+    {
+        "name": "Critical Element",
+        "description": "Weapon's elemental attack power increased when landing a critical hit.",
+        "type": "offensive",
+        "limit": 5
+    },
+    {
+        "name": "Bleeding Edge",
+        "description": "Reduces damage received from bleeding, increases affinity when bleeding and grants bleeding status at the start of a hunt.",
+        "type": "utility",
+        "limit": 3
+    },
+    {
+        "name": "Blast Attack",
+        "description": "Increases weapon's blast buildup value.",
+        "type": "utility",
+        "limit": 5
+    },
+    {
+        "name": "Critical Ferocity",
+        "description": "Reduces weapon's affinity but grants a small chance of increasing negative affinity damage.",
+        "type": "utility",
+        "limit": 5
+    },
+    {
+        "name": "Litheness",
+        "description": "After evading, the next time damage is received, it is reduced (up to 3 times per hunt).",
+        "type": "placeholder",
+        "limit": 3
+    },
+    {
+        "name": "Raw Power",
+        "description": "Affinity decreases but attack power increases.",
+        "type": "utility",
+        "limit": 5
+    },
+    {
+        "name": "Morph Boost",
+        "description": "Increases damage after morphing a switch axe or charge blade.",
+        "type": "utility",
+        "limit": 5
+    },
+    {
+        "name": "Blunt Force",
+        "description": "Increases the damage of the hammer's Charged Attack and the hunting horn's Echo Attack.",
+        "type": "offensive",
+        "limit": 5
+    },
+    {
+        "name": "placeholder",
+        "description": "placeholder.",
+        "type": "placeholder",
+        "limit": 0
     }
 ]
