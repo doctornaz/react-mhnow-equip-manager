@@ -514,11 +514,5 @@
         "description": "Increases the damage of the hammer's Charged Attack and the hunting horn's Echo Attack.",
         "type": "offensive",
         "limit": 5
-    },
-    {
-        "name": "placeholder",
-        "description": "placeholder.",
-        "type": "placeholder",
-        "limit": 0
     }
 ]
