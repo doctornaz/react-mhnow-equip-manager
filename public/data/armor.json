@@ -2747,7 +2747,7 @@
                 "name": "Nergigante Helm",
                 "skills": [
                     {
-                        "name": "Nergivante Avidity",
+                        "name": "Nergigante Avidity",
                         "level": 1
                     },
                     {
@@ -2765,7 +2765,7 @@
                 "name": "Nergigante Mail",
                 "skills": [
                     {
-                        "name": "Nergivante Avidity",
+                        "name": "Nergigante Avidity",
                         "level": 1
                     },
                     {
@@ -2783,7 +2783,7 @@
                 "name": "Nergigante Vambraces",
                 "skills": [
                     {
-                        "name": "Nergivante Avidity",
+                        "name": "Nergigante Avidity",
                         "level": 1
                     },
                     {
@@ -2801,7 +2801,7 @@
                 "name": "Nergigante Coil",
                 "skills": [
                     {
-                        "name": "Nergivante Avidity",
+                        "name": "Nergigante Avidity",
                         "level": 1
                     },
                     {
@@ -2819,7 +2819,7 @@
                 "name": "Nergigante Greaves",
                 "skills": [
                     {
-                        "name": "Nergivante Avidity",
+                        "name": "Nergigante Avidity",
                         "level": 1
                     },
                     {
@@ -2829,6 +2829,68 @@
                     {
                         "name": "Recoil Down",
                         "level": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Lagombi Set": [
+            {
+                "slot": "Head",
+                "name": "Lagombi Helm",
+                "skills": [
+                    {
+                        "name": "Special Boost",
+                        "level": 2
+                    },
+                    {
+                        "name": "Evade Extender",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Torso",
+                "name": "Lagombi Mail",
+                "skills": [
+                    {
+                        "name": "Attack Boost",
+                        "level": 3
+                    }
+                ]
+            },
+            {
+                "slot": "Arms",
+                "name": "Lagombi Vambraces",
+                "skills": [
+                    {
+                        "name": "Shared Shield",
+                        "level": 1
+                    },
+                    {
+                        "name": "Resentment",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Waist",
+                "name": "Lagombi Coil",
+                "skills": [
+                    {
+                        "name": "Shared Shield",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Legs",
+                "name": "Lagombi Greaves",
+                "skills": [
+                    {
+                        "name": "Ice Attack",
+                        "level": 2
                     }
                 ]
             }
