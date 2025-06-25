@@ -2524,5 +2524,71 @@
                 ]
             }
         ]
+    },
+    {
+        "Arzuros Set": [
+            {
+                "slot": "Head",
+                "name": "Arzuros Helm",
+                "skills": [
+                    {
+                        "name": "Shared Sword",
+                        "level": 1
+                    },
+                    {
+                        "name": "Shared Shield",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Torso",
+                "name": "Arzuros Mail",
+                "skills": [
+                    {
+                        "name": "Shared Sword",
+                        "level": 3
+                    }
+                ]
+            },
+            {
+                "slot": "Arms",
+                "name": "Arzuros Vambraces",
+                "skills": [
+                    {
+                        "name": "Focus",
+                        "level": 2
+                    },
+                    {
+                        "name": "Concentration",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Waist",
+                "name": "Arzuros Coil",
+                "skills": [
+                    {
+                        "name": "Morph Boost",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Legs",
+                "name": "Arzuros Greaves",
+                "skills": [
+                    {
+                        "name": "Critical Ferocity",
+                        "level": 1
+                    },
+                    {
+                        "name": "Special Boost",
+                        "level": 1
+                    }
+                ]
+            }
+        ]
     }
 ]
