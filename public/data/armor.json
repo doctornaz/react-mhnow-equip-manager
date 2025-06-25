@@ -2499,7 +2499,6 @@
                     }
                 ]
             }
-            
         ]
     },
     {
@@ -3027,6 +3026,76 @@
                     {
                         "name": "Artful Dodger",
                         "level": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Bishaten Set": [
+            {
+                "slot": "Head",
+                "name": "Bishaten Helm",
+                "skills": [
+                    {
+                        "name": "Paralysis Exploit",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Torso",
+                "name": "Bishaten Mail",
+                "skills": [
+                    {
+                        "name": "Reload Speed",
+                        "level": 1
+                    },
+                    {
+                        "name": "Burst",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Arms",
+                "name": "Bishaten Vambraces",
+                "skills": [
+                    {
+                        "name": "Slugger",
+                        "level": 2
+                    },
+                    {
+                        "name": "Skyward Striker",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Waist",
+                "name": "Bishaten Coil",
+                "skills": [
+                    {
+                        "name": "Paralysis Exploit",
+                        "level": 1
+                    },
+                    {
+                        "name": "Shared Sword",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Legs",
+                "name": "Bishaten Greaves",
+                "skills": [
+                    {
+                        "name": "Quick Work",
+                        "level": 1
+                    },
+                    {
+                        "name": "Focus",
+                        "level": 2
                     }
                 ]
             }
