@@ -2506,7 +2506,7 @@
         "Kirin Set": [
             {
                 "slot": "Head",
-                "name": "Kirin Horn ",
+                "name": "Kirin Horn",
                 "skills": [
                     {
                         "name": "Kirin Flashstorm",
@@ -2828,6 +2828,76 @@
                     },
                     {
                         "name": "Recoil Down",
+                        "level": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Nargacuga Set": [
+            {
+                "slot": "Head",
+                "name": "Nargacuga Helm",
+                "skills": [
+                    {
+                        "name": "Fighting Spirit",
+                        "level": 1
+                    },
+                    {
+                        "name": "Focus",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Torso",
+                "name": "Nargacuga Mail",
+                "skills": [
+                    {
+                        "name": "Critical Boost",
+                        "level": 2
+                    },
+                    {
+                        "name": "Lock On",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Arms",
+                "name": "Nargacuga Vambraces",
+                "skills": [
+                    {
+                        "name": "Buildup Boost",
+                        "level": 3
+                    }
+                ]
+            },
+            {
+                "slot": "Waist",
+                "name": "Nargacuga Faulds",
+                "skills": [
+                    {
+                        "name": "Evading Reload",
+                        "level": 2
+                    },
+                    {
+                        "name": "Peak Performance",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Legs",
+                "name": "Nargacuga Greaves",
+                "skills": [
+                    {
+                        "name": "Buildup Boost",
+                        "level": 2
+                    },
+                    {
+                        "name": "artful Dodger",
                         "level": 1
                     }
                 ]
