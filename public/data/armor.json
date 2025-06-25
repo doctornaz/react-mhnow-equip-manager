@@ -2570,5 +2570,71 @@
                 ]
             }
         ]
+    },
+    {
+        "Glavenus Set": [
+            {
+                "slot": "Head",
+                "name": "Glavenus Helm",
+                "skills": [
+                    {
+                        "name": "Raw Power",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Torso",
+                "name": "Glavenus Mail",
+                "skills": [
+                    {
+                        "name": "Lock On",
+                        "level": 1
+                    },
+                    {
+                        "name": "Raw Power",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Arms",
+                "name": "Glavenus Vambraces",
+                "skills": [
+                    {
+                        "name": "Weakness Exploit",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Waist",
+                "name": "Glavenus Coil",
+                "skills": [
+                    {
+                        "name": "Quick Work",
+                        "level": 2
+                    },
+                    {
+                        "name": "Sneak Attack",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Legs",
+                "name": "Glavenus Greaves",
+                "skills": [
+                    {
+                        "name": "Burst",
+                        "level": 2
+                    },
+                    {
+                        "name": "Artful Dodger",
+                        "level": 1
+                    }
+                ]
+            }
+        ]
     }
 ]
