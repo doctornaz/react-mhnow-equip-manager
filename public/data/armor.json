@@ -2739,5 +2739,99 @@
                 ]
             }
         ]
+    },
+    {
+        "Nergigante Set": [
+            {
+                "slot": "Head",
+                "name": "Nergigante Helm",
+                "skills": [
+                    {
+                        "name": "Nergivante Avidity",
+                        "level": 1
+                    },
+                    {
+                        "name": "Critical Eye",
+                        "level": 1
+                    },
+                    {
+                        "name": "Artful Dodger",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Torso",
+                "name": "Nergigante Mail",
+                "skills": [
+                    {
+                        "name": "Nergivante Avidity",
+                        "level": 1
+                    },
+                    {
+                        "name": "Sneak Attack",
+                        "level": 1
+                    },
+                    {
+                        "name": "Evade Extender",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Arms",
+                "name": "Nergigante Vambraces",
+                "skills": [
+                    {
+                        "name": "Nergivante Avidity",
+                        "level": 1
+                    },
+                    {
+                        "name": "Offensive Guard",
+                        "level": 1
+                    },
+                    {
+                        "name": "Guard",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Waist",
+                "name": "Nergigante Coil",
+                "skills": [
+                    {
+                        "name": "Nergivante Avidity",
+                        "level": 1
+                    },
+                    {
+                        "name": "Attack Boost",
+                        "level": 1
+                    },
+                    {
+                        "name": "Partbreaker",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Legs",
+                "name": "Nergigante Greaves",
+                "skills": [
+                    {
+                        "name": "Nergivante Avidity",
+                        "level": 1
+                    },
+                    {
+                        "name": "Reload Speed",
+                        "level": 1
+                    },
+                    {
+                        "name": "Recoil Down",
+                        "level": 1
+                    }
+                ]
+            }
+        ]
     }
 ]
