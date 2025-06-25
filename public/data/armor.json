@@ -2524,5 +2524,87 @@
                 ]
             }
         ]
+    },
+    {
+        "Chameleos Set": [
+            {
+                "slot": "Head",
+                "name": "Mizuha Cap",
+                "skills": [
+                    {
+                        "name": "Chameleos Venomist",
+                        "level": 1
+                    },
+                    {
+                        "name": "Poison Exploit",
+                        "level": 1
+                    },
+                    {
+                        "name": "Status Sneak Attack",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Torso",
+                "name": "Mizuha Guards",
+                "skills": [
+                    {
+                        "name": "Chameleos Venomist",
+                        "level": 1
+                    },
+                    {
+                        "name": "Focus",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Arms",
+                "name": "Mizuha Sleeves ",
+                "skills": [
+                    {
+                        "name": "Chameleos Venomist",
+                        "level": 1
+                    },
+                    {
+                        "name": "Valor",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Waist",
+                "name": "Mizuha Sash",
+                "skills": [
+                    {
+                        "name": "Chameleos Venomist",
+                        "level": 1
+                    },
+                    {
+                        "name": "Poison Exploit",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Legs",
+                "name": "Mizuha Gaiters",
+                "skills": [
+                    {
+                        "name": "Chameleos Venomist",
+                        "level": 1
+                    },
+                    {
+                        "name": "Offensive Guard",
+                        "level": 1
+                    },
+                    {
+                        "name": "Guard",
+                        "level": 1
+                    }
+                ]
+            }
+        ]
     }
 ]
