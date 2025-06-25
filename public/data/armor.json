@@ -3550,5 +3550,71 @@
                 ]
             }
         ]
+    },
+    {
+        "Beotodus Set": [
+            {
+                "slot": "Head",
+                "name": "Beotodus Helm",
+                "skills": [
+                    {
+                        "name": "Peak Performance",
+                        "level": 3
+                    }
+                ]
+            },
+            {
+                "slot": "Torso",
+                "name": "Beotodus Mail",
+                "skills": [
+                    {
+                        "name": "Blunt Force",
+                        "level": 1
+                    },
+                    {
+                        "name": "Slugger",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Arms",
+                "name": "Beotodus Vambraces",
+                "skills": [
+                    {
+                        "name": "Lock On",
+                        "level": 1
+                    },
+                    {
+                        "name": "Focus",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Waist",
+                "name": "Beotodus Coil",
+                "skills": [
+                    {
+                        "name": "Defensive Loading",
+                        "level": 2
+                    },
+                    {
+                        "name": "Ice Attack",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Legs",
+                "name": "Beotodus Greaves",
+                "skills": [
+                    {
+                        "name": "Blunt Force",
+                        "level": 2
+                    }
+                ]
+            }
+        ]
     }
 ]
