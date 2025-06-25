@@ -2436,6 +2436,96 @@
         ]
     },
     {
+        "Kirin Set": [
+            {
+                "slot": "Head",
+                "name": "Kirin Horn ",
+                "skills": [
+                    {
+                        "name": "Kirin Flashstorm",
+                        "level": 1
+                    },
+                                        {
+                        "name": "Lock On",
+                        "level": 1
+                    },
+                                        {
+                        "name": "Fighting Spirit",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Torso",
+                "name": "Kirin Jacket",
+                "skills": [
+                    {
+                        "name": "Kirin Flashstorm",
+                        "level": 1
+                    },
+                    {
+                        "name": "Critical Boost",
+                        "level": 1
+                    },
+                    {
+                        "name": "Critical Eye",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Arms",
+                "name": "Kirin Longarms",
+                "skills": [
+                    {
+                        "name": "Kirin Flashstorm",
+                        "level": 1
+                    },
+                    {
+                        "name": "Critical Boost",
+                        "level": 1
+                    },
+                    {
+                        "name": "Weakness Exploit",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Waist",
+                "name": "Kirin Hoop",
+                "skills": [
+                    {
+                        "name": "Kirin Flashstorm",
+                        "level": 1
+                    },
+                    {
+                        "name": "Critical Boost",
+                        "level": 1
+                    },
+                    {
+                        "name": "Latent Power",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Legs",
+                "name": "Kirin Leg Guards",
+                "skills": [
+                    {
+                        "name": "Kirin Flashstorm",
+                        "level": 1
+                    },
+                    {
+                        "name": "Recoil Down",
+                        "level": 2
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "Arzuros Set": [
             {
                 "slot": "Head",
