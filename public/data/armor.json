@@ -1429,6 +1429,68 @@
             }
         ]
     },
+        {
+        "Silver Rathalos Set": [
+            {
+                "slot": "Head",
+                "name": "Silver Solhelm",
+                "skills": [
+                    {
+                        "name": "Critical Element",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Torso",
+                "name": "Silver Solmail",
+                "skills": [
+                    {
+                        "name": "Fire Attack",
+                        "level": 1
+                    },
+                                        {
+                        "name": "Critical Boost",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Arms",
+                "name": "Silver Solbraces",
+                "skills": [
+                    {
+                        "name": "Latent Power",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Waist",
+                "name": "Silver Solcoil",
+                "skills": [
+                    {
+                        "name": "Windproof",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Legs",
+                "name": "Silver Solgreaves",
+                "skills": [
+                    {
+                        "name": "Critical Element",
+                        "level": 1
+                    },
+                    {
+                        "name": "Weakness Exploit",
+                        "level": 1
+                    }
+                ]
+            }
+        ]
+    },
     {
         "Jack-o’-Head Armor Set": [
             {
