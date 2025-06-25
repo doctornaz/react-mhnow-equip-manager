@@ -2654,6 +2654,68 @@
         ]
     },
     {
+        "Bazelgeuse Set": [
+            {
+                "slot": "Head",
+                "name": "Bazelgeuse Helm",
+                "skills": [
+                    {
+                        "name": "Reload Speed",
+                        "level": 2
+                    },
+                    {
+                        "name": "Artillery",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Torso",
+                "name": "Bazelgeuse Mail",
+                "skills": [
+                    {
+                        "name": "Valor",
+                        "level": 3
+                    }
+                ]
+            },
+            {
+                "slot": "Arms",
+                "name": "Bazelgeuse Vambraces",
+                "skills": [
+                    {
+                        "name": "Critical Ferocity",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Waist",
+                "name": "Bazelgeuse Coil",
+                "skills": [
+                    {
+                        "name": "Artillery",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Legs",
+                "name": "Bazelgeuse Greaves",
+                "skills": [
+                    {
+                        "name": "Valor",
+                        "level": 2
+                    },
+                    {
+                        "name": "Blast Attack",
+                        "level": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "Arzuros Set": [
             {
                 "slot": "Head",
