@@ -2436,163 +2436,6 @@
         ]
     },
     {
-        "Golden Rathian Armor Set": [
-            {
-                "slot": "Head",
-                "name": "Golden Lunehelm",
-                "skills": [
-                    {
-                        "name": "Resentment",
-                        "level": 1
-                    },
-                    {
-                        "name": "Divine Blessing",
-                        "level": 2
-                    }
-                ]
-            },
-            {
-                "slot": "Torso",
-                "name": "Golden Lunemail",
-                "skills": [
-                    {
-                        "name": "Parbreaker",
-                        "level": 2
-                    }
-                ]
-            },
-            {
-                "slot": "Arms",
-                "name": "Golden Lunebraces",
-                "skills": [
-                    {
-                        "name": "Poison Exploit",
-                        "level": 2
-                    }
-                ]
-            },
-            {
-                "slot": "Waist",
-                "name": "Golden Lunecoil",
-                "skills": [
-                    {
-                        "name": "Lock On",
-                        "level": 1
-                    },
-                    {
-                        "name": "Resuscitate",
-                        "level": 1
-                    }
-                ]
-            },
-            {
-                "slot": "Legs",
-                "name": "Golden Lunegreaves",
-                "skills": [
-                    {
-                        "name": "Poison Exploit",
-                        "level": 1
-                    },
-                    {
-                        "name": "Poison Attack",
-                        "level": 1
-                    }
-                ]
-            }
-            
-        ]
-    },
-    {
-        "Kirin Set": [
-            {
-                "slot": "Head",
-                "name": "Kirin Horn",
-                "skills": [
-                    {
-                        "name": "Kirin Flashstorm",
-                        "level": 1
-                    },
-                                        {
-                        "name": "Lock On",
-                        "level": 1
-                    },
-                                        {
-                        "name": "Fighting Spirit",
-                        "level": 1
-                    }
-                ]
-            },
-            {
-                "slot": "Torso",
-                "name": "Kirin Jacket",
-                "skills": [
-                    {
-                        "name": "Kirin Flashstorm",
-                        "level": 1
-                    },
-                    {
-                        "name": "Critical Boost",
-                        "level": 1
-                    },
-                    {
-                        "name": "Critical Eye",
-                        "level": 1
-                    }
-                ]
-            },
-            {
-                "slot": "Arms",
-                "name": "Kirin Longarms",
-                "skills": [
-                    {
-                        "name": "Kirin Flashstorm",
-                        "level": 1
-                    },
-                    {
-                        "name": "Critical Boost",
-                        "level": 1
-                    },
-                    {
-                        "name": "Weakness Exploit",
-                        "level": 1
-                    }
-                ]
-            },
-            {
-                "slot": "Waist",
-                "name": "Kirin Hoop",
-                "skills": [
-                    {
-                        "name": "Kirin Flashstorm",
-                        "level": 1
-                    },
-                    {
-                        "name": "Critical Boost",
-                        "level": 1
-                    },
-                    {
-                        "name": "Latent Power",
-                        "level": 1
-                    }
-                ]
-            },
-            {
-                "slot": "Legs",
-                "name": "Kirin Leg Guards",
-                "skills": [
-                    {
-                        "name": "Kirin Flashstorm",
-                        "level": 1
-                    },
-                    {
-                        "name": "Recoil Down",
-                        "level": 2
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "Arzuros Set": [
             {
                 "slot": "Head",
@@ -2659,373 +2502,69 @@
         ]
     },
     {
-        "Chameleos Set": [
+        "Ebony Odogaron Set": [
             {
                 "slot": "Head",
-                "name": "Mizuha Cap",
+                "name": "Death Garon Helm",
                 "skills": [
                     {
-                        "name": "Chameleos Venomist",
+                        "name": "Bleeding Edge",
                         "level": 1
                     },
                     {
-                        "name": "Poison Exploit",
-                        "level": 1
-                    },
-                    {
-                        "name": "Status Sneak Attack",
+                        "name": "Resuscitate",
                         "level": 1
                     }
                 ]
             },
             {
                 "slot": "Torso",
-                "name": "Mizuha Guards",
+                "name": "Death Garon Mail",
                 "skills": [
                     {
-                        "name": "Chameleos Venomist",
+                        "name": "Latent Power",
                         "level": 1
                     },
                     {
-                        "name": "Focus",
-                        "level": 2
-                    }
-                ]
-            },
-            {
-                "slot": "Arms",
-                "name": "Mizuha Sleeves ",
-                "skills": [
-                    {
-                        "name": "Chameleos Venomist",
-                        "level": 1
-                    },
-                    {
-                        "name": "Valor",
-                        "level": 2
-                    }
-                ]
-            },
-            {
-                "slot": "Waist",
-                "name": "Mizuha Sash",
-                "skills": [
-                    {
-                        "name": "Chameleos Venomist",
-                        "level": 1
-                    },
-                    {
-                        "name": "Poison Exploit",
-                        "level": 2
-                    }
-                ]
-            },
-            {
-                "slot": "Legs",
-                "name": "Mizuha Gaiters",
-                "skills": [
-                    {
-                        "name": "Chameleos Venomist",
-                        "level": 1
-                    },
-                    {
-                        "name": "Offensive Guard",
-                        "level": 1
-                    },
-                    {
-                        "name": "Guard",
-                        "level": 1
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "Nergigante Set": [
-            {
-                "slot": "Head",
-                "name": "Nergigante Helm",
-                "skills": [
-                    {
-                        "name": "Nergigante Avidity",
-                        "level": 1
-                    },
-                    {
-                        "name": "Critical Eye",
-                        "level": 1
-                    },
-                    {
-                        "name": "Artful Dodger",
-                        "level": 1
-                    }
-                ]
-            },
-            {
-                "slot": "Torso",
-                "name": "Nergigante Mail",
-                "skills": [
-                    {
-                        "name": "Nergigante Avidity",
-                        "level": 1
-                    },
-                    {
-                        "name": "Sneak Attack",
-                        "level": 1
-                    },
-                    {
-                        "name": "Evade Extender",
+                        "name": "Critical Element",
                         "level": 1
                     }
                 ]
             },
             {
                 "slot": "Arms",
-                "name": "Nergigante Vambraces",
+                "name": "Death Garon Braces",
                 "skills": [
                     {
-                        "name": "Nergigante Avidity",
-                        "level": 1
-                    },
-                    {
-                        "name": "Offensive Guard",
-                        "level": 1
-                    },
-                    {
-                        "name": "Guard",
-                        "level": 1
+                        "name": "Bleeding Edge",
+                        "level": 2
                     }
                 ]
             },
             {
                 "slot": "Waist",
-                "name": "Nergigante Coil",
-                "skills": [
-                    {
-                        "name": "Nergigante Avidity",
-                        "level": 1
-                    },
-                    {
-                        "name": "Attack Boost",
-                        "level": 1
-                    },
-                    {
-                        "name": "Partbreaker",
-                        "level": 1
-                    }
-                ]
-            },
-            {
-                "slot": "Legs",
-                "name": "Nergigante Greaves",
-                "skills": [
-                    {
-                        "name": "Nergigante Avidity",
-                        "level": 1
-                    },
-                    {
-                        "name": "Reload Speed",
-                        "level": 1
-                    },
-                    {
-                        "name": "Recoil Down",
-                        "level": 1
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "Nargacuga Set": [
-            {
-                "slot": "Head",
-                "name": "Nargacuga Helm",
-                "skills": [
-                    {
-                        "name": "Fighting Spirit",
-                        "level": 1
-                    },
-                    {
-                        "name": "Focus",
-                        "level": 1
-                    }
-                ]
-            },
-            {
-                "slot": "Torso",
-                "name": "Nargacuga Mail",
+                "name": "Death Garon Coil",
                 "skills": [
                     {
                         "name": "Critical Boost",
-                        "level": 2
+                        "level": 2s
                     },
                     {
-                        "name": "Lock On",
-                        "level": 1
-                    }
-                ]
-            },
-            {
-                "slot": "Arms",
-                "name": "Nargacuga Vambraces",
-                "skills": [
-                    {
-                        "name": "Buildup Boost",
-                        "level": 3
-                    }
-                ]
-            },
-            {
-                "slot": "Waist",
-                "name": "Nargacuga Faulds",
-                "skills": [
-                    {
-                        "name": "Evading Reload",
-                        "level": 2
-                    },
-                    {
-                        "name": "Peak Performance",
+                        "name": "Evasive Concentration",
                         "level": 1
                     }
                 ]
             },
             {
                 "slot": "Legs",
-                "name": "Nargacuga Greaves",
+                "name": "Death Garon Greaves",
                 "skills": [
                     {
-                        "name": "Buildup Boost",
-                        "level": 2
-                    },
-                    {
-                        "name": "artful Dodger",
-                        "level": 1
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "Lagombi Set": [
-            {
-                "slot": "Head",
-                "name": "Lagombi Helm",
-                "skills": [
-                    {
-                        "name": "Special Boost",
+                        "name": "Dragon Attack",
                         "level": 2
                     },
                     {
                         "name": "Evade Extender",
-                        "level": 1
-                    }
-                ]
-            },
-            {
-                "slot": "Torso",
-                "name": "Lagombi Mail",
-                "skills": [
-                    {
-                        "name": "Attack Boost",
-                        "level": 3
-                    }
-                ]
-            },
-            {
-                "slot": "Arms",
-                "name": "Lagombi Vambraces",
-                "skills": [
-                    {
-                        "name": "Shared Shield",
-                        "level": 1
-                    },
-                    {
-                        "name": "Resentment",
-                        "level": 1
-                    }
-                ]
-            },
-            {
-                "slot": "Waist",
-                "name": "Lagombi Coil",
-                "skills": [
-                    {
-                        "name": "Shared Shield",
-                        "level": 2
-                    }
-                ]
-            },
-            {
-                "slot": "Legs",
-                "name": "Lagombi Greaves",
-                "skills": [
-                    {
-                        "name": "Ice Attack",
-                        "level": 2
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "Glavenus Set": [
-            {
-                "slot": "Head",
-                "name": "Glavenus Helm",
-                "skills": [
-                    {
-                        "name": "Raw Power",
-                        "level": 2
-                    }
-                ]
-            },
-            {
-                "slot": "Torso",
-                "name": "Glavenus Mail",
-                "skills": [
-                    {
-                        "name": "Lock On",
-                        "level": 1
-                    },
-                    {
-                        "name": "Raw Power",
-                        "level": 2
-                    }
-                ]
-            },
-            {
-                "slot": "Arms",
-                "name": "Glavenus Vambraces",
-                "skills": [
-                    {
-                        "name": "Weakness Exploit",
-                        "level": 2
-                    }
-                ]
-            },
-            {
-                "slot": "Waist",
-                "name": "Glavenus Coil",
-                "skills": [
-                    {
-                        "name": "Quick Work",
-                        "level": 2
-                    },
-                    {
-                        "name": "Sneak Attack",
-                        "level": 1
-                    }
-                ]
-            },
-            {
-                "slot": "Legs",
-                "name": "Glavenus Greaves",
-                "skills": [
-                    {
-                        "name": "Burst",
-                        "level": 2
-                    },
-                    {
-                        "name": "Artful Dodger",
                         "level": 1
                     }
                 ]
