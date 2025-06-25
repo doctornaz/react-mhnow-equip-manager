@@ -2934,6 +2934,64 @@
         ]
     },
     {
+        "Wroggi Set": [
+            {
+                "slot": "Head",
+                "name": "Wroggi Helm",
+                "skills": [
+                    {
+                        "name": "Power Prolonger",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Torso",
+                "name": "Wroggi Mail",
+                "skills": [
+                    {
+                        "name": "Final Shot",
+                        "level": 1
+                    },
+                    {
+                        "name": "Recoil Down",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Arms",
+                "name": "Wroggi Vambraces",
+                "skills": [
+                    {
+                        "name": "Critical Eye",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Waist",
+                "name": "Wroggi Coil",
+                "skills": [
+                    {
+                        "name": "Guard",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Legs",
+                "name": "Wroggi Greaves",
+                "skills": [
+                    {
+                        "name": "Final Shot",
+                        "level": 2
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "Nergigante Set": [
             {
                 "slot": "Head",
