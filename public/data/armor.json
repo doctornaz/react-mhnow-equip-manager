@@ -3295,6 +3295,72 @@
             }
         ]
     },
+    {
+        "Tigrex Set": [
+            {
+                "slot": "Head",
+                "name": "Tigrex Helm",
+                "skills": [
+                    {
+                        "name": "Critical Ferocity",
+                        "level": 1
+                    },
+                    {
+                        "name": "Concentration",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Torso",
+                "name": "Tigrex Mail",
+                "skills": [
+                    {
+                        "name": "Heroics",
+                        "level": 2
+                    },
+                    {
+                        "name": "Guts",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Arms",
+                "name": "Tigrex Vambraces",
+                "skills": [
+                    {
+                        "name": "Earplugs",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Waist",
+                "name": "Tigrex Coil",
+                "skills": [
+                    {
+                        "name": "Critical Ferocity",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Legs",
+                "name": "Tigrex Greaves",
+                "skills": [
+                    {
+                        "name": "Lock On",
+                        "level": 1
+                    },
+                    {
+                        "name": "Partbreaker",
+                        "level": 2
+                    }
+                ]
+            }
+        ]
+    },
         {
         "Ebony Odogaron Set": [
             {
