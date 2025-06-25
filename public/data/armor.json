@@ -2499,10 +2499,9 @@
                     }
                 ]
             }
-
         ]
     },
-    {
+        {
         "Kirin Set": [
             {
                 "slot": "Head",
@@ -2512,11 +2511,11 @@
                         "name": "Kirin Flashstorm",
                         "level": 1
                     },
-                    {
+                                        {
                         "name": "Lock On",
                         "level": 1
                     },
-                    {
+                                        {
                         "name": "Fighting Spirit",
                         "level": 1
                     }
@@ -2587,6 +2586,72 @@
                     {
                         "name": "Recoil Down",
                         "level": 2
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Arzuros Set": [
+            {
+                "slot": "Head",
+                "name": "Arzuros Helm",
+                "skills": [
+                    {
+                        "name": "Shared Sword",
+                        "level": 1
+                    },
+                    {
+                        "name": "Shared Shield",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Torso",
+                "name": "Arzuros Mail",
+                "skills": [
+                    {
+                        "name": "Shared Sword",
+                        "level": 3
+                    }
+                ]
+            },
+            {
+                "slot": "Arms",
+                "name": "Arzuros Vambraces",
+                "skills": [
+                    {
+                        "name": "Focus",
+                        "level": 2
+                    },
+                    {
+                        "name": "Concentration",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Waist",
+                "name": "Arzuros Coil",
+                "skills": [
+                    {
+                        "name": "Morph Boost",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Legs",
+                "name": "Arzuros Greaves",
+                "skills": [
+                    {
+                        "name": "Critical Ferocity",
+                        "level": 1
+                    },
+                    {
+                        "name": "Special Boost",
+                        "level": 1
                     }
                 ]
             }
@@ -2839,65 +2904,127 @@
         ]
     },
     {
-        "Arzuros Set": [
+        "Lagombi Set": [
             {
                 "slot": "Head",
-                "name": "Arzuros Helm",
+                "name": "Lagombi Helm",
                 "skills": [
                     {
-                        "name": "Shared Sword",
-                        "level": 1
+                        "name": "Special Boost",
+                        "level": 2
                     },
                     {
-                        "name": "Shared Shield",
+                        "name": "Evade Extender",
                         "level": 1
                     }
                 ]
             },
             {
                 "slot": "Torso",
-                "name": "Arzuros Mail",
+                "name": "Lagombi Mail",
                 "skills": [
                     {
-                        "name": "Shared Sword",
+                        "name": "Attack Boost",
                         "level": 3
                     }
                 ]
             },
             {
                 "slot": "Arms",
-                "name": "Arzuros Vambraces",
+                "name": "Lagombi Vambraces",
                 "skills": [
                     {
-                        "name": "Focus",
-                        "level": 2
+                        "name": "Shared Shield",
+                        "level": 1
                     },
                     {
-                        "name": "Concentration",
+                        "name": "Resentment",
                         "level": 1
                     }
                 ]
             },
             {
                 "slot": "Waist",
-                "name": "Arzuros Coil",
+                "name": "Lagombi Coil",
                 "skills": [
                     {
-                        "name": "Morph Boost",
+                        "name": "Shared Shield",
                         "level": 2
                     }
                 ]
             },
             {
                 "slot": "Legs",
-                "name": "Arzuros Greaves",
+                "name": "Lagombi Greaves",
                 "skills": [
                     {
-                        "name": "Critical Ferocity",
+                        "name": "Ice Attack",
+                        "level": 2
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Glavenus Set": [
+            {
+                "slot": "Head",
+                "name": "Glavenus Helm",
+                "skills": [
+                    {
+                        "name": "Raw Power",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Torso",
+                "name": "Glavenus Mail",
+                "skills": [
+                    {
+                        "name": "Lock On",
                         "level": 1
                     },
                     {
-                        "name": "Special Boost",
+                        "name": "Raw Power",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Arms",
+                "name": "Glavenus Vambraces",
+                "skills": [
+                    {
+                        "name": "Weakness Exploit",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Waist",
+                "name": "Glavenus Coil",
+                "skills": [
+                    {
+                        "name": "Quick Work",
+                        "level": 2
+                    },
+                    {
+                        "name": "Sneak Attack",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Legs",
+                "name": "Glavenus Greaves",
+                "skills": [
+                    {
+                        "name": "Burst",
+                        "level": 2
+                    },
+                    {
+                        "name": "Artful Dodger",
                         "level": 1
                     }
                 ]
@@ -2969,72 +3096,6 @@
                     {
                         "name": "Focus",
                         "level": 2
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "Glavenus Set": [
-            {
-                "slot": "Head",
-                "name": "Glavenus Helm",
-                "skills": [
-                    {
-                        "name": "Raw Power",
-                        "level": 2
-                    }
-                ]
-            },
-            {
-                "slot": "Torso",
-                "name": "Glavenus Mail",
-                "skills": [
-                    {
-                        "name": "Lock On",
-                        "level": 1
-                    },
-                    {
-                        "name": "Raw Power",
-                        "level": 2
-                    }
-                ]
-            },
-            {
-                "slot": "Arms",
-                "name": "Glavenus Vambraces",
-                "skills": [
-                    {
-                        "name": "Weakness Exploit",
-                        "level": 2
-                    }
-                ]
-            },
-            {
-                "slot": "Waist",
-                "name": "Glavenus Coil",
-                "skills": [
-                    {
-                        "name": "Quick Work",
-                        "level": 2
-                    },
-                    {
-                        "name": "Sneak Attack",
-                        "level": 1
-                    }
-                ]
-            },
-            {
-                "slot": "Legs",
-                "name": "Glavenus Greaves",
-                "skills": [
-                    {
-                        "name": "Burst",
-                        "level": 2
-                    },
-                    {
-                        "name": "Artful Dodger",
-                        "level": 1
                     }
                 ]
             }
