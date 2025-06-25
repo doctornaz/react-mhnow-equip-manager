@@ -19,7 +19,7 @@
     },
     {
         "name": "Power Prolonger",
-        "description": "Extends the duration of the powered-up state granted by dual blades, long swords, and charge blades.",
+        "description": "Extends the duration of the powered-up state granted by dual blades, long swords, hunting horns, switch axes and charge blades.",
         "type": "offensive",
         "limit": 5
     },
