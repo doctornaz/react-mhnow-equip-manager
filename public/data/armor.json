@@ -2658,6 +2658,76 @@
         ]
     },
     {
+        "Chatacabra Set": [
+            {
+                "slot": "Head",
+                "name": "Chatacabra Helm",
+                "skills": [
+                    {
+                        "name": "Litheness",
+                        "level": 1
+                    },
+                    {
+                        "name": "Sneak Attack",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Torso",
+                "name": "Chatacabra Mail",
+                "skills": [
+                    {
+                        "name": "Litheness",
+                        "level": 1
+                    },
+                    {
+                        "name": "Firm Foothold",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Arms",
+                "name": "Chatacabra Vambraces",
+                "skills": [
+                    {
+                        "name": "Litheness",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Waist",
+                "name": "Chatacabra Coil",
+                "skills": [
+                    {
+                        "name": "Litheness",
+                        "level": 1
+                    },
+                    {
+                        "name": "Resentment",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Legs",
+                "name": "Chatacabra Greaves",
+                "skills": [
+                    {
+                        "name": "Litheness",
+                        "level": 1
+                    },
+                    {
+                        "name": "Evading Reload",
+                        "level": 2
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "Chameleos Set": [
             {
                 "slot": "Head",
