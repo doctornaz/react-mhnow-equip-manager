@@ -3228,5 +3228,75 @@
                 ]
             }
         ]
+    },
+        {
+        "Ebony Odogaron Set": [
+            {
+                "slot": "Head",
+                "name": "Death Garon Helm",
+                "skills": [
+                    {
+                        "name": "Bleeding Edge",
+                        "level": 1
+                    },
+                    {
+                        "name": "Resuscitate",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Torso",
+                "name": "Death Garon Mail",
+                "skills": [
+                    {
+                        "name": "Latent Power",
+                        "level": 1
+                    },
+                    {
+                        "name": "Critical Element",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Arms",
+                "name": "Death Garon Braces",
+                "skills": [
+                    {
+                        "name": "Bleeding Edge",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Waist",
+                "name": "Death Garon Coil",
+                "skills": [
+                    {
+                        "name": "Critical Boost",
+                        "level": 2
+                    },
+                    {
+                        "name": "Evasive Concentration",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Legs",
+                "name": "Death Garon Greaves",
+                "skills": [
+                    {
+                        "name": "Dragon Attack",
+                        "level": 2
+                    },
+                    {
+                        "name": "Evade Extender",
+                        "level": 1
+                    }
+                ]
+            }
+        ]
     }
 ]
