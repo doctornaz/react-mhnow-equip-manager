@@ -1429,7 +1429,7 @@
             }
         ]
     },
-        {
+    {
         "Silver Rathalos Set": [
             {
                 "slot": "Head",
@@ -1486,48 +1486,6 @@
                     {
                         "name": "Weakness Exploit",
                         "level": 1
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "Jack-o’-Head Armor Set": [
-            {
-                "slot": "Head",
-                "name": "Jack-o'-Head",
-                "skills": [
-                    {
-                        "name": "Solidarity (Pumpkin Hunt)",
-                        "level": 1
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "New Year Specs 2024": [
-            {
-                "slot": "Head",
-                "name": "New Year Specs 2024",
-                "skills": [
-                    {
-                        "name": "Happy New Year (2024)",
-                        "level": 1
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "Dragon Dance Mask": [
-            {
-                "slot": "Head",
-                "name": "Dragon Dance Mask",
-                "skills": [
-                    {
-                        "name": "Critical Boost",
-                        "level": 2
                     }
                 ]
             }
@@ -3612,6 +3570,76 @@
                     {
                         "name": "Blunt Force",
                         "level": 2
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Halloween Set": [
+            {
+                "slot": "Head",
+                "name": "Jack-o'-Head",
+                "skills": [
+                    {
+                        "name": "Solidarity (Pumpkin Hunt)",
+                        "level": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Halloween 2024 Set": [
+            {
+                "slot": "Head",
+                "name": "Ghost Balloon",
+                "skills": [
+                    {
+                        "name": "Artful Dodger",
+                        "level": 2
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "New Year Set": [
+            {
+                "slot": "Head",
+                "name": "New Year Specs 2024",
+                "skills": [
+                    {
+                        "name": "Happy New Year (2024)",
+                        "level": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Lunar New Year Set": [
+            {
+                "slot": "Head",
+                "name": "Dragon Dance Mask",
+                "skills": [
+                    {
+                        "name": "Critical Boost",
+                        "level": 2
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Bunny Head": [
+            {
+                "slot": "Head",
+                "name": "Bunny Head",
+                "skills": [
+                    {
+                        "name": "Artful Dodger",
+                        "level": 3
                     }
                 ]
             }
