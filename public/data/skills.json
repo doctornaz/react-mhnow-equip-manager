@@ -168,8 +168,8 @@
         "limit": 5
     },
     {
-        "name": "Solidarity (Pumpkin Hunt)",
-        "description": "Increases attack power the more of your fellow hunters have this skill activated.",
+        "name": "Solidarity (Halloween)",
+        "description": "Increases attack power relative to the number of fellow hunters with this skill activated. If active during the Halloween event, the effect is multiplied by 5.",
         "type": "offensive",
         "limit": 1
     },
