@@ -3218,6 +3218,68 @@
         ]
     },
     {
+        "Volvidon Set": [
+            {
+                "slot": "Head",
+                "name": "Volvidon Helm",
+                "skills": [
+                    {
+                        "name": "Morph Boost",
+                        "level": 1
+                    },
+                    {
+                        "name": "Power Prolonger",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Torso",
+                "name": "Volvidon Mail",
+                "skills": [
+                    {
+                        "name": "Paralysis Attack",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Arms",
+                "name": "Volvidon Vambraces",
+                "skills": [
+                    {
+                        "name": "Morph Boost",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "slot": "Waist",
+                "name": "Volvidon Coil",
+                "skills": [
+                    {
+                        "name": "Special Insurance",
+                        "level": 2
+                    },
+                    {
+                        "name": "Fighting Spirit",
+                        "level": 1
+                    }
+                ]
+            },
+            {
+                "slot": "Legs",
+                "name": "Volvidon Greaves",
+                "skills": [
+                    {
+                        "name": "Paralysis Resistance",
+                        "level": 3
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "Glavenus Set": [
             {
                 "slot": "Head",
