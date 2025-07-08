@@ -406,5 +406,131 @@
         "description": "Increases damage dealt when the Special Gauge becomes full.",
         "type": "offensive",
         "limit": 5
+    },
+    {
+        "name": "Poison Exploit",
+        "description": "Increases damage dealt to poisoned monsters.",
+        "type": "offensive",
+        "limit": 5
+    },
+    {
+        "name": "Kirin Flashstorm",
+        "description": "Makes it easier to get rid of paralysis and increases thunder element attack power by (10%, 15%, 25%).",
+        "type": "offensive",
+        "limit": 3
+    },
+    {
+        "name": "Valor",
+        "description": "Increases attack power as your health decreases.",
+        "type": "offensive",
+        "limit": 5
+    },
+    {
+        "name": "Critical Ferocity",
+        "description": "Increases the damage of critical hits and boosts affinity.",
+        "type": "offensive",
+        "limit": 5
+    },
+    {
+        "name": "Blast Attack",
+        "description": "Increases weapon's blast buildup value.",
+        "type": "offensive",
+        "limit": 5
+    },
+    {
+        "name": "Litheness",
+        "description": "Increases evasion and movement speed.",
+        "type": "utility",
+        "limit": 3
+    },
+    {
+        "name": "Critical Element",
+        "description": "Increases elemental damage on critical hits.",
+        "type": "offensive",
+        "limit": 5
+    },
+    {
+        "name": "Bleeding Edge",
+        "description": "Increases damage dealt while suffering from bleeding.",
+        "type": "offensive",
+        "limit": 3
+    },
+    {
+        "name": "Nergigante Avidity",
+        "description": "Damage increased by (10%, 15%, 30%), but Special Gauge will no longer fill when attacking.",
+        "type": "offensive",
+        "limit": 3
+    },
+    {
+        "name": "Evading Reload",
+        "description": "Reloads your weapon after a successful evade.",
+        "type": "utility",
+        "limit": 5
+    },
+    {
+        "name": "Shared Sword",
+        "description": "Increases attack power when multiple hunters have this skill equipped.",
+        "type": "offensive",
+        "limit": 5
+    },
+    {
+        "name": "Shared Shield",
+        "description": "Increases defense when multiple hunters have this skill equipped.",
+        "type": "defensive",
+        "limit": 5
+    },
+    {
+        "name": "Morph Boost",
+        "description": "Increases the speed and power of morph attacks.",
+        "type": "offensive",
+        "limit": 5
+    },
+    {
+        "name": "Raw Power",
+        "description": "Increases raw (non-elemental) attack power.",
+        "type": "offensive",
+        "limit": 5
+    },
+    {
+        "name": "Chameleos Venomist",
+        "description": "Increases poison buildup and resistance to poison.",
+        "type": "utility",
+        "limit": 3
+    },
+    {
+        "name": "Final Shot",
+        "description": "Increases damage dealt by the last hit in a combo or the final shot of a ranged weapon.",
+        "type": "offensive",
+        "limit": 5
+    },
+    {
+        "name": "Paralysis Exploit",
+        "description": "Increases damage dealt to paralyzed monsters.",
+        "type": "offensive",
+        "limit": 5
+    },
+    {
+        "name": "Blunt Force",
+        "description": "Increases damage dealt with blunt weapons.",
+        "type": "offensive",
+        "limit": 5
+    },
+    {
+        "name": "Buildup Boost",
+        "description": "Increases status buildup when attacking monsters.",
+        "type": "offensive",
+        "limit": 5
+    },
+    {
+        "name": "MrBeast Challenge!",
+        "description": "Great things will happen after using certain atacks!",
+        "type": "offensive",
+        "limit": 1
+    },
+    {
+        "name": "Balloon Charge",
+        "description": "Whenever you charge up an attack/Special Skill to the max, your weapon will expand, increasing damage.",
+        "type": "offensive",
+        "limit": 1
     }
 ]
