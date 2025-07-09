@@ -1,7 +1,7 @@
 [
     {
         "name": "Hunter's Unity",
-        "description": "The more companions there are activating the same skill, the greater the damage inflicted.",
+        "description": "Increases attack power relative to the number of fellow hunters with this skill activated.",
         "type": "offensive",
         "limit": 1 
     },
@@ -13,13 +13,13 @@
     },
     {
         "name": "Latent Power",
-        "description": "Raises Affinity and Special Gauge fill rate when certain conditions are met.",
+        "description": "Affinity raised by (20%, 30%, 40%, 50%, 60%) and Special Gauge fill rate increased by (10%, 20%, 30%, 40%, 50%) when certain conditions are met.",
         "type": "offensive",
         "limit": 5
     },
     {
         "name": "Power Prolonger",
-        "description": "Extends the duration of the powered-up state granted by dual blades, long swords, hunting horns, switch axes and charge blades.",
+        "description": "(Ever so, Slightly, Moderately, Greatly, Massively) extends the duration of the powered-up state granted by dual blades, long swords, hunting horns, switch axes and charge blades.",
         "type": "offensive",
         "limit": 5
     },
@@ -103,7 +103,7 @@
     },
     {
         "name": "Fortify",
-        "description": "Increases attack power for a certain period each time you revive after fainting during a hunt.",
+        "description": "Increases attack power by (10%, 20%, 30%, 40%, 50%) for 40 seconds each time you revive after fainting during a hunt.",
         "type": "offensive",
         "limit": 5
     },
@@ -127,7 +127,7 @@
     },
     {
         "name": "Offensive Guard",
-        "description": "Increases attack power for certain seconds after executing a well-timed guard.",
+        "description": "Increases attack power by (10%, 15%, 20%, 30%, 40%) for 10 seconds after executing a well-timed guard.",
         "type": "offensive",
         "limit": 5
     },
@@ -139,7 +139,7 @@
     },
     {
         "name": "Heroics",
-        "description": "Increases attack power when your health drops below a certain level.",
+        "description": "Increases attack power by (10%, 20%, 30%, 40%, 50%) when your health drops to 29% or lower.",
         "type": "offensive",
         "limit": 5
     },
@@ -151,7 +151,7 @@
     },
     {
         "name": "Sneak Attack",
-        "description": "Increases damage when attacking a monster from behind.",
+        "description": "Increases damage by (10%, 15%, 20%, 25%, 30%) when attacking a monster from behind.",
         "type": "offensive",
         "limit": 5
     },
@@ -163,7 +163,7 @@
     },
     {
         "name": "Special Boost",
-        "description": "Increases the damage of special skills.",
+        "description": "Increases the damage of Special Skills by (10%, 20%, 30%, 45%, 60%).",
         "type": "offensive",
         "limit": 5
     },
@@ -199,13 +199,13 @@
     },
     {
         "name": "Health Boost",
-        "description": "Increases health.",
+        "description": "Increases health by (10, 20, 30, 40, 50).",
         "type": "defensive",
         "limit": 5
     },
     {
         "name": "Defense Boost",
-        "description": "Increases defense.",
+        "description": "Increases defense by (20, 40, 60, 80, 100).",
         "type": "defensive",
         "limit": 5
     },
@@ -247,7 +247,7 @@
     },
     {
         "name": "Divine Blessing",
-        "description": "Chance of halving the damage caused by a monster's attack.",
+        "description": "(30%, 40%, 50%, 50%, 50%) chance of reducing damage from a monster's attack by (50%, 50%, 50%, 60%, 80%).",
         "type": "defensive",
         "limit": 5
     },
@@ -265,7 +265,7 @@
     },
     {
         "name": "Artful Dodger",
-        "description": "Makes perfect evades easier to perform.",
+        "description": "Makes perfect evades (ever so slightly, slightly, moderately, much easier, significantly) easier to perform.",
         "type": "defensive",
         "limit": 5
     },
@@ -301,7 +301,7 @@
     },
     {
         "name": "Concentration",
-        "description": "Increases special gauge fill rate.",
+        "description": "Increases Special Gauge fill rate by (5%, 10%, 15%, 20%, 30%).",
         "type": "utility",
         "limit": 5  
     },
@@ -313,13 +313,13 @@
     },
     {
         "name": "Evade Extender",
-        "description": "Extends evasion distance.",
+        "description": "(Very slightly, Slightly, Moderately, Greatly, Massively) extends evasion distance.",
         "type": "utility",
         "limit": 5
     },
     {
         "name": "Partbreaker",
-        "description": "Increases damage accumulated upon breakable parts.",
+        "description": "Increases part damage accumulated on breakable parts by (5%, 10%, 20%, 30%, 40%).",
         "type": "utility",
         "limit": 5
     },
@@ -337,7 +337,7 @@
     },
     {
         "name": "Rising Tide",
-        "description": "Increases attack power and defense as the hunt timer runs out.",
+        "description": "(Very slightly, Slightly, Moderately, Greatly, Massively) Increases attack power and defense as the hunt timer runs out.",
         "type": "utility",
         "limit": 5
     },
@@ -349,7 +349,7 @@
     },
     {
         "name": "Slugger",
-        "description": "Increases stun power.",
+        "description": "Increases stun power by (10%, 20%, 30%, 40%, 50%).",
         "type": "utility",
         "limit": 5
     },
@@ -409,7 +409,7 @@
     },
     {
         "name": "Poison Exploit",
-        "description": "Increases damage dealt to poisoned monsters.",
+        "description": "Damage against monsters inflicted with poison increases by (30%, 45%, 60%, 80%, 100%)",
         "type": "offensive",
         "limit": 5
     },
@@ -445,7 +445,7 @@
     },
     {
         "name": "Critical Element",
-        "description": "Increases elemental damage on critical hits.",
+        "description": "Weapon's elemental attack power inreased by (30%, 40%, 50%, 60%, 80%) when landing a critical hit.",
         "type": "offensive",
         "limit": 5
     },
@@ -530,6 +530,12 @@
     {
         "name": "Balloon Charge",
         "description": "Whenever you charge up an attack/Special Skill to the max, your weapon will expand, increasing damage.",
+        "type": "offensive",
+        "limit": 1
+    },
+    {
+        "name": "Eggsplosive",
+        "description": "Whenever you activate Element Boost, your shield will begin to glow, powering up your phials' explosions.",
         "type": "offensive",
         "limit": 1
     }
