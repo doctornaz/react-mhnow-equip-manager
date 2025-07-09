@@ -1,25 +1,25 @@
 [
     {
         "name": "Hunter's Unity",
-        "description": "The more companions there are activating the same skill, the greater the damage inflicted.",
+        "description": "Increases attack power relative to the number of fellow hunters with this skill activated.",
         "type": "offensive",
         "limit": 1 
     },
     {
         "name": "Artillery",
-        "description": "Increases the damage of gunlance's ammo/Wyvern's Fire attacks, charge blade's phial attacks, and sticky ammo.",
+        "description": "Increases the damage of gunlance's Shelling/Wyvern's Fire, chargeblade's phial attacks, sticky ammo, and wyvern ammo by (10%, 15%, 20%, 25%, 30%).",
         "type": "offensive",
         "limit": 5
     },
     {
         "name": "Latent Power",
-        "description": "Raises Affinity and Special Gauge fill rate when certain conditions are met.",
+        "description": "Affinity raised by (20%, 30%, 40%, 50%, 60%) and Special Gauge fill rate increased by (10%, 20%, 30%, 40%, 50%) when certain conditions are met.",
         "type": "offensive",
         "limit": 5
     },
     {
         "name": "Power Prolonger",
-        "description": "Extends the duration of the powered-up state granted by dual blades, long swords, hunting horns, switch axes and charge blades.",
+        "description": "(Ever so, Slightly, Moderately, Greatly, Massively) extends the duration of the powered-up state granted by dual blades, long swords, hunting horns, switch axes and charge blades.",
         "type": "offensive",
         "limit": 5
     },
@@ -31,13 +31,13 @@
     },
     {
         "name": "Critical Boost",
-        "description": "Increases the damage multiplier of critical hits.",
+        "description": "Increases the damage multiplier of critical hits to (130%, 135%, 140%, 145%, 150%).",
         "type": "offensive",
         "limit": 5
     },
     {
         "name": "Skyward Striker",
-        "description": "Increases the damage of aerial attacks.",
+        "description": "Increases the damage of aerial attacks by (15%, 20%, 25%, 30%, 40%).",
         "type": "offensive",
         "limit": 5
     },
@@ -49,7 +49,7 @@
     },
     {
         "name": "Resentment",
-        "description": "When taking damage, attack power is increased for 15 seconds.",
+        "description": "When taking damage, attack power is increased by (10%, 15%, 20%, 30%, 40%) for 15 seconds.",
         "type": "offensive",
         "limit": 5
     },
@@ -103,7 +103,7 @@
     },
     {
         "name": "Fortify",
-        "description": "Increases attack power for a certain period each time you revive after fainting during a hunt.",
+        "description": "Increases attack power by (10%, 20%, 30%, 40%, 50%) for 40 seconds each time you revive after fainting during a hunt.",
         "type": "offensive",
         "limit": 5
     },
@@ -115,7 +115,7 @@
     },
     {
         "name": "Focus",
-        "description": "Shortens charging time for weapons with charge attacks by certain %, and increases the fill rate of the Spirit Gauge by certain %.",
+        "description": "Shortens charging time by (5%, 10%, 15%, 20%, 30%) and increases the fill rate of the long sword, switch axe and charge blade's gauge by (5%, 10%, 15%, 20%, 30%).",
         "type": "offensive",
         "limit": 5
     },
@@ -127,19 +127,19 @@
     },
     {
         "name": "Offensive Guard",
-        "description": "Increases attack power for certain seconds after executing a well-timed guard.",
+        "description": "Increases attack power by (10%, 15%, 20%, 30%, 40%) for 10 seconds after executing a well-timed guard.",
         "type": "offensive",
         "limit": 5
     },
     {
         "name": "Burst",
-        "description": "Landing consecutive hits in a short span of time increases attack power for certain seconds.",
+        "description": "Landing consecutive hits in a short span of time increases attack power by (5%, 10%, 15%, 20%, 30%) for 4 seconds.",
         "type": "offensive",
         "limit": 5
     },
     {
         "name": "Heroics",
-        "description": "Increases attack power when your health drops below a certain level.",
+        "description": "Increases attack power by (10%, 20%, 30%, 40%, 50%) when your health drops to 29% or lower.",
         "type": "offensive",
         "limit": 5
     },
@@ -151,19 +151,19 @@
     },
     {
         "name": "Sneak Attack",
-        "description": "Increases damage when attacking a monster from behind.",
+        "description": "Increases damage by (10%, 15%, 20%, 25%, 30%) when attacking a monster from behind.",
         "type": "offensive",
         "limit": 5
     },
     {
         "name": "Peak Performance",
-        "description": "Increases attack power when your health is full.",
+        "description": "Increases attack power by (100, 200, 300, 400, 500) when your health is full.",
         "type": "offensive",
         "limit": 5
     },
     {
         "name": "Special Boost",
-        "description": "Increases the damage of special skills.",
+        "description": "Increases the damage of Special Skills by (10%, 20%, 30%, 45%, 60%).",
         "type": "offensive",
         "limit": 5
     },
@@ -199,13 +199,13 @@
     },
     {
         "name": "Health Boost",
-        "description": "Increases health.",
+        "description": "Increases health by (10, 20, 30, 40, 50).",
         "type": "defensive",
         "limit": 5
     },
     {
         "name": "Defense Boost",
-        "description": "Increases defense.",
+        "description": "Increases defense by (20, 40, 60, 80, 100).",
         "type": "defensive",
         "limit": 5
     },
@@ -213,7 +213,7 @@
         "name": "Poison Resistance",
         "description": "Grants a chance to prevent poison status/prevents poisoning.",
         "type": "defensive",
-        "limit": 5
+        "limit": 3
     },
     {
         "name": "Paralysis Resistance",
@@ -247,25 +247,25 @@
     },
     {
         "name": "Divine Blessing",
-        "description": "Chance of halving the damage caused by a monster's attack.",
+        "description": "(30%, 40%, 50%, 50%, 50%) chance of reducing damage from a monster's attack by (50%, 50%, 50%, 60%, 80%).",
         "type": "defensive",
         "limit": 5
     },
     {
         "name": "Guard",
-        "description": "Reduces damage and knockback when guarding against monster attacks.",
+        "description": "(Very Slightly, Slightly, Moderately, Greatly, Massively) reduces damage and knockback when guarding against monster attacks.",
         "type": "defensive",
         "limit": 5
     },
     {
         "name": "Last Stand",
-        "description": "Increases defense when your health drops below a certain level.",
+        "description": "Increases defense by (500, 100, 150, 200, 300) when your health drops to 29% or lower.",
         "type": "defensive",
         "limit": 5
     },
     {
         "name": "Artful Dodger",
-        "description": "Makes perfect evades easier to perform.",
+        "description": "Makes perfect evades (ever so slightly, slightly, moderately, much easier, significantly) easier to perform.",
         "type": "defensive",
         "limit": 5
     },
@@ -283,9 +283,9 @@
     },
     {
         "name": "Quick Work",
-        "description": "Increases the speed of sheathing or transforming your weapon.",
+        "description": "(Ever so slightly, Slightly, Significantly) increases the speed of sheathing or transforming your weapon.",
         "type": "utility",
-        "limit": 5
+        "limit": 3
     },
     {
         "name": "Happy New Year (2024)",
@@ -295,13 +295,13 @@
     },
     {
         "name": "Evasive Concentration",
-        "description": "Fills Special Gauge after performing a perfect evade.",
+        "description": "Fills Special by (7%, 10%, 12%, 15%, 20%) Gauge after performing a perfect evade.",
         "type": "utility",
         "limit": 5
     },
     {
         "name": "Concentration",
-        "description": "Increases special gauge fill rate.",
+        "description": "Increases Special Gauge fill rate by (5%, 10%, 15%, 20%, 30%).",
         "type": "utility",
         "limit": 5  
     },
@@ -313,19 +313,19 @@
     },
     {
         "name": "Evade Extender",
-        "description": "Extends evasion distance.",
+        "description": "(Very slightly, Slightly, Moderately, Greatly, Massively) extends evasion distance.",
         "type": "utility",
         "limit": 5
     },
     {
         "name": "Partbreaker",
-        "description": "Increases damage accumulated upon breakable parts.",
+        "description": "Increases part damage accumulated on breakable parts by (5%, 10%, 20%, 30%, 40%).",
         "type": "utility",
         "limit": 5
     },
     {
         "name": "Firm Foothold",
-        "description": "Reduces knockback when taking damage.",
+        "description": "(Very slightly, Slightly, Moderately) reduces knockback when taking damage.",
         "type": "utility",
         "limit": 3
     },
@@ -337,7 +337,7 @@
     },
     {
         "name": "Rising Tide",
-        "description": "Increases attack power and defense as the hunt timer runs out.",
+        "description": "(Very slightly, Slightly, Moderately, Greatly, Massively) Increases attack power and defense as the hunt timer runs out.",
         "type": "utility",
         "limit": 5
     },
@@ -349,7 +349,7 @@
     },
     {
         "name": "Slugger",
-        "description": "Increases stun power.",
+        "description": "Increases stun power by (10%, 20%, 30%, 40%, 50%).",
         "type": "utility",
         "limit": 5
     },
@@ -373,7 +373,7 @@
     },
     {
         "name": "Resuscitate",
-        "description": "Increases damage when you are suffering from a status ailment.",
+        "description": "Increases damage by (5%, 10%, 20%, 30%, 40%) when you are suffering from a status ailment.",
         "type": "utility",
         "limit": 5
     },
@@ -403,8 +403,140 @@
     },
     {
         "name": "Fighting Spirit",
-        "description": "Increases damage dealt when the Special Gauge becomes full.",
+        "description": "When the Special Gauge becomes full, damage dealt increases by (10%, 15%, 20%, 25%, 30%) for 20 seconds.",
         "type": "offensive",
         "limit": 5
+    },
+    {
+        "name": "Poison Exploit",
+        "description": "Damage against monsters inflicted with poison increases by (30%, 45%, 60%, 80%, 100%)",
+        "type": "offensive",
+        "limit": 5
+    },
+    {
+        "name": "Kirin Flashstorm",
+        "description": "Makes it easier to get rid of paralysis and increases thunder element attack power by (10%, 15%, 25%).",
+        "type": "offensive",
+        "limit": 3
+    },
+    {
+        "name": "Valor",
+        "description": "Increases attack power by (400, 550, 700, 850, 1000) and fills Special Gauge (50%, 60%, 70%, 80%, 100%) when a monster roars (up to 1 time per hunt).",
+        "type": "offensive",
+        "limit": 5
+    },
+    {
+        "name": "Critical Ferocity",
+        "description": "Reduces weapon's afinity by (10%, 15%, 20%, 25%, 30%), but grants a small chance of increasing negative affinity damage to (150%, 175%, 200%, 225%, 250%).",
+        "type": "offensive",
+        "limit": 5
+    },
+    {
+        "name": "Blast Attack",
+        "description": "Increases weapon's blast buildup value.",
+        "type": "offensive",
+        "limit": 5
+    },
+    {
+        "name": "Litheness",
+        "description": "After evading, the next time damage is received, it is reduced by (20%, 25%, 30%) (up to 3 times per hunt).",
+        "type": "utility",
+        "limit": 3
+    },
+    {
+        "name": "Critical Element",
+        "description": "Weapon's elemental attack power inreased by (30%, 40%, 50%, 60%, 80%) when landing a critical hit.",
+        "type": "offensive",
+        "limit": 5
+    },
+    {
+        "name": "Bleeding Edge",
+        "description": "Increases damage dealt while suffering from bleeding.",
+        "type": "offensive",
+        "limit": 3
+    },
+    {
+        "name": "Nergigante Avidity",
+        "description": "Damage increased by (10%, 15%, 30%), but Special Gauge will no longer fill when attacking.",
+        "type": "offensive",
+        "limit": 3
+    },
+    {
+        "name": "Evading Reload",
+        "description": "Grants a (30%, 50%, 50%, 70%, 70%) chance of phials/ammo being refilled by (1, 1, 2, 2, 3) when evading while equipped with a gunlance, charge blade, light bowgun or heavy bowgun.",
+        "type": "utility",
+        "limit": 5
+    },
+    {
+        "name": "Shared Sword",
+        "description": "Increases attack power by (80, 160, 240, 320, 400) during a group hunt.",
+        "type": "offensive",
+        "limit": 5
+    },
+    {
+        "name": "Shared Shield",
+        "description": "Increases defense when multiple hunters have this skill equipped.",
+        "type": "defensive",
+        "limit": 5
+    },
+    {
+        "name": "Morph Boost",
+        "description": "Increases the speed and power of morph attacks.",
+        "type": "offensive",
+        "limit": 5
+    },
+    {
+        "name": "Raw Power",
+        "description": "Affinity decreases by (5%, 10%, 15%, 20%, 30%), but attack power increases by (100, 200, 300, 400, 500).",
+        "type": "offensive",
+        "limit": 5
+    },
+    {
+        "name": "Chameleos Venomist",
+        "description": "Increases poison buildup and resistance to poison.",
+        "type": "utility",
+        "limit": 3
+    },
+    {
+        "name": "Final Shot",
+        "description": "Increases damage dealt by the last hit in a combo or the final shot of a ranged weapon.",
+        "type": "offensive",
+        "limit": 5
+    },
+    {
+        "name": "Paralysis Exploit",
+        "description": "Increases damage dealt to paralyzed monsters.",
+        "type": "offensive",
+        "limit": 5
+    },
+    {
+        "name": "Blunt Force",
+        "description": "Increases damage dealt with blunt weapons.",
+        "type": "offensive",
+        "limit": 5
+    },
+    {
+        "name": "Buildup Boost",
+        "description": "Increases status buildup when attacking monsters.",
+        "type": "offensive",
+        "limit": 5
+    },
+    {
+        "name": "MrBeast Challenge!",
+        "description": "Great things will happen after using certain atacks!",
+        "type": "offensive",
+        "limit": 1
+    },
+    {
+        "name": "Balloon Charge",
+        "description": "Whenever you charge up an attack/Special Skill to the max, your weapon will expand, increasing damage.",
+        "type": "offensive",
+        "limit": 1
+    },
+    {
+        "name": "Eggsplosive",
+        "description": "Whenever you activate Element Boost, your shield will begin to glow, powering up your phials' explosions.",
+        "type": "offensive",
+        "limit": 1
     }
 ]
