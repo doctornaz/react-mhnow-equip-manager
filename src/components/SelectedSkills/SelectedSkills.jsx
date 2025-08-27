@@ -4,15 +4,17 @@ import Panel from '../Panel/Panel';
 import SkillBar from '../SkillBar/SkillBar';
 
 // Import slot-specific icon components
-import HeadArmorSlotIcon from '../icons/hunter/Head/HeadArmorSlotIcon';
-import TorsoArmorSlotIcon from '../icons/hunter/Torso/TorsoArmorSlotIcon';
-import ArmsArmorSlotIcon from '../icons/hunter/Arms/ArmsArmorSlotIcon';
-import WaistArmorSlotIcon from '../icons/hunter/Waist/WaistArmorSlotIcon';
-import LegsArmorSlotIcon from '../icons/hunter/Legs/LegsArmorSlotIcon';
+import { 
+    HelmArmorSlotIcon, 
+    ChestArmorSlotIcon, 
+    ArmsArmorSlotIcon,
+    TorsoArmorSlotIcon, 
+    LegsArmorSlotIcon 
+} from 'mhw-icons-svg-react';
 
 const SelectedSkills = ({ selectedSkills, armorData }) => {
     // Slot order
-    const slotOrder = ['Head', 'Torso', 'Arms', 'Waist', 'Legs'];
+    const slotOrder = ['Head', 'Chest', 'Arms', 'Waist', 'Legs'];
 
     // Function to filter and sort armor data based on selected skills
     const getMatchingArmor = (skillName) => {
@@ -28,6 +30,7 @@ const SelectedSkills = ({ selectedSkills, armorData }) => {
                     // Check if the armor piece has the selected skill
                     const matchingSkill = armorPiece.skills.find((skill) => skill.name === skillName);
                     if (matchingSkill) {
+                        //If armor does have the skill, add it to the matchingArmor array
                         matchingArmor.push({
                             setName: setName,
                             name: armorPiece.name,
@@ -41,10 +44,12 @@ const SelectedSkills = ({ selectedSkills, armorData }) => {
 
         // Sort armor pieces by slot order and then by level (highest to lowest)
         return matchingArmor.sort((a, b) => {
+            //If both armors are in the same slot, sort by level
             const slotComparison = slotOrder.indexOf(a.slot) - slotOrder.indexOf(b.slot);
-            if (slotComparison === 0) {
+
+            if (slotComparison === 0) 
                 return b.level - a.level;
-            }
+            
             return slotComparison;
         });
     };
@@ -85,13 +90,13 @@ const SelectedSkills = ({ selectedSkills, armorData }) => {
     const renderSlotIcon = (slot) => {
         switch (slot) {
             case 'Head':
-                return <HeadArmorSlotIcon rank={10} size={16} />;
+                return <HelmArmorSlotIcon rank={10} size={16} />;
             case 'Torso':
-                return <TorsoArmorSlotIcon rank={10} size={16} />;
+                return <ChestArmorSlotIcon rank={10} size={16} />;
             case 'Arms':
                 return <ArmsArmorSlotIcon rank={10} size={16} />;
             case 'Waist':
-                return <WaistArmorSlotIcon rank={10} size={16} />;
+                return <TorsoArmorSlotIcon rank={10} size={16} />;
             case 'Legs':
                 return <LegsArmorSlotIcon rank={10} size={16} />;
             default:
