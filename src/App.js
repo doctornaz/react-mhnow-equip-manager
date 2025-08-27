@@ -10,7 +10,7 @@ function App() {
     const [armorData, setArmorData] = useState([]);
 
     useEffect(() => {
-// Load all skills
+        // Load all skills
         fetch(`${process.env.REACT_APP_MHN_DATA_BASEURL}/skills.json`) 
             .then(response => response.json())
             .then(data => {

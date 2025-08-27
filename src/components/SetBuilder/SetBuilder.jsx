@@ -4,15 +4,18 @@ import Panel from '../Panel/Panel';
 import SkillBar from '../SkillBar/SkillBar';
 
 // Import slot-specific icon components
-import HeadArmorSlotIcon from '../icons/hunter/Head/HeadArmorSlotIcon';
-import TorsoArmorSlotIcon from '../icons/hunter/Torso/TorsoArmorSlotIcon';
-import ArmsArmorSlotIcon from '../icons/hunter/Arms/ArmsArmorSlotIcon';
-import WaistArmorSlotIcon from '../icons/hunter/Waist/WaistArmorSlotIcon';
-import LegsArmorSlotIcon from '../icons/hunter/Legs/LegsArmorSlotIcon';
+import { 
+    HelmArmorSlotIcon, 
+    ChestArmorSlotIcon, 
+    ArmsArmorSlotIcon,
+    TorsoArmorSlotIcon, 
+    LegsArmorSlotIcon 
+} from 'mhw-icons-svg-react';
 
 const SetBuilder = ({ armorData, selectedSkills, skills }) => {
     const buildArmorSet = (armorData, selectedSkills) => {
-        const slots = ['Head', 'Torso', 'Arms', 'Waist', 'Legs'];
+        //todo: move this to a common file
+        const slots = ['Head', 'Chest', 'Arms', 'Waist', 'Legs'];
         const armorSet = {};
 
         slots.forEach(slot => {
@@ -76,17 +79,18 @@ const SetBuilder = ({ armorData, selectedSkills, skills }) => {
             return skillFromState ? skillFromState.limit : 0;
         }
     };
+        //todo: move this to a common file
 
     const renderSlotIcon = (slot) => {
         switch (slot) {
             case 'Head':
-                return <HeadArmorSlotIcon rank={10} size={16} />;
+                return <HelmArmorSlotIcon rank={10} size={16} />;
             case 'Torso':
-                return <TorsoArmorSlotIcon rank={10} size={16} />;
+                return <ChestArmorSlotIcon rank={10} size={16} />;
             case 'Arms':
                 return <ArmsArmorSlotIcon rank={10} size={16} />;
             case 'Waist':
-                return <WaistArmorSlotIcon rank={10} size={16} />;
+                return <TorsoArmorSlotIcon rank={10} size={16} />;
             case 'Legs':
                 return <LegsArmorSlotIcon rank={10} size={16} />;
             default:

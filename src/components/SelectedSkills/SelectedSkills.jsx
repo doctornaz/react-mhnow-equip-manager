@@ -14,6 +14,7 @@ import {
 
 const SelectedSkills = ({ selectedSkills, armorData }) => {
     // Slot order
+        //todo: move this to a common file
     const slotOrder = ['Head', 'Chest', 'Arms', 'Waist', 'Legs'];
 
     // Function to filter and sort armor data based on selected skills
@@ -87,6 +88,8 @@ const SelectedSkills = ({ selectedSkills, armorData }) => {
 
     const bestArmor = findBestArmor();
     // Function to render slot-specific icon
+        //todo: move this to a common file
+    
     const renderSlotIcon = (slot) => {
         switch (slot) {
             case 'Head':
